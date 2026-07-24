@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24T01:58:32Z",
+  "generated": "2026-07-24T11:51:21Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -55,7 +55,7 @@
       "next_basis": "estimated",
       "days_until": -25,
       "status": "due",
-      "last_checked": "2026-07-24T01:58:32Z"
+      "last_checked": "2026-07-24T11:51:21Z"
     },
     "CHF|gdp": {
       "currency": "CHF",
@@ -293,7 +293,7 @@
       "next_basis": "estimated",
       "days_until": -23,
       "status": "due",
-      "last_checked": "2026-07-24T01:58:32Z"
+      "last_checked": "2026-07-24T11:51:21Z"
     },
     "AUD|spmi": {
       "currency": "AUD",
@@ -370,13 +370,13 @@
       "indicator": "retail_sales",
       "label": "Retail Sales",
       "source": "te",
-      "last_release": "2026-06-19",
+      "last_release": "2026-07-24",
       "period_days": 28,
       "period_basis": "derived",
-      "next_release": "2026-07-17",
+      "next_release": "2026-08-21",
       "next_basis": "estimated",
-      "days_until": -7,
-      "status": "due",
+      "days_until": 28,
+      "status": "upcoming",
       "last_checked": null
     },
     "JPY|retail_sales": {
@@ -433,7 +433,7 @@
       "next_basis": "estimated",
       "days_until": -7,
       "status": "due",
-      "last_checked": "2026-07-24T01:58:32Z"
+      "last_checked": "2026-07-24T11:51:21Z"
     },
     "NZD|retail_sales": {
       "currency": "NZD",
@@ -461,7 +461,7 @@
       "next_basis": "estimated",
       "days_until": -10,
       "status": "due",
-      "last_checked": "2026-07-24T01:58:32Z"
+      "last_checked": "2026-07-24T11:51:21Z"
     },
     "EUR|consumer_conf": {
       "currency": "EUR",
@@ -615,7 +615,7 @@
       "next_basis": "estimated",
       "days_until": -5,
       "status": "due",
-      "last_checked": "2026-07-24T01:58:32Z"
+      "last_checked": "2026-07-24T11:51:21Z"
     },
     "CHF|cpi": {
       "currency": "CHF",
@@ -1021,7 +1021,7 @@
       "next_basis": "estimated",
       "days_until": -1,
       "status": "due",
-      "last_checked": "2026-07-24T01:58:32Z"
+      "last_checked": "2026-07-24T11:51:21Z"
     },
     "USD|nfp": {
       "currency": "USD",
