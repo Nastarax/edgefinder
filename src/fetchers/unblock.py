@@ -29,8 +29,17 @@ Config (all via env vars / GitHub Actions secrets):
 Free tiers (as of 2026): ScraperAPI ~1000 credits/mo, ScrapingBee 1000-credit
 trial. Because the Actions refresh is calendar-gated (--due only fetches cells
 whose release window has passed), request volume is a handful per day, so this
-generally stays inside a free tier. Premium requests cost more credits each, so
-prefer leaving SCRAPER_PREMIUM off and only enable it if you see block-throughs.
+generally stays inside a free tier. Premium requests cost ~10x more credits
+each, so keep SCRAPER_PREMIUM OFF unless you are seeing block-throughs; leaving
+it on is the fastest way to drain the free tier (learned 2026-07-24).
+
+Credit discipline (2026-07-24, after a free tier was exhausted):
+  * fetch() does NOT retry a returned non-200 (a Cloudflare block page is billed
+    as a 200, and an immediate re-request lands on the same wall). Only true
+    transport errors are retried, and only up to SCRAPER_MAX_ATTEMPTS (default 1).
+  * scripts/refresh_investing.py skips its pass-2 retry whenever enabled() is
+    True, so a still-blocked cell is not re-fetched (and re-billed) in one run;
+    the laptop's free curl_cffi path recovers it later.
 """
 from __future__ import annotations
 
@@ -91,27 +100,50 @@ def _params(target: str) -> dict:
     return p
 
 
-def fetch(url: str, max_attempts: int = 3, timeout: int = 70):
+def _max_attempts() -> int:
+    """How many times to hit the scraping API for one URL. Default 1.
+
+    Retrying an HTTP response the provider already returned does not help with
+    Cloudflare (an immediate re-request lands on the same wall) and can cost
+    another credit, since providers bill a returned block page as a 200. So we
+    do NOT retry on a non-200 here; the only reason to raise this is to ride out
+    transient network/timeout errors (those return no response and are not
+    billed). Override with SCRAPER_MAX_ATTEMPTS if ever needed."""
+    try:
+        return max(1, int(os.environ.get("SCRAPER_MAX_ATTEMPTS", "1")))
+    except ValueError:
+        return 1
+
+
+def fetch(url: str, max_attempts: int | None = None, timeout: int = 70):
     """Fetch `url` through the configured scraping API.
 
     Returns (status_code, html) on success, or (last_status, None) on failure,
     matching the contract of each fetcher's own _fetch_with_retries so callers
     can `return unblock.fetch(url)` directly.
+
+    Only genuine transport errors (no response, hence not billed) are retried;
+    a returned non-200 is surfaced immediately so we never pay twice for the
+    same block. See `_max_attempts`.
     """
     provider = _provider()
     endpoint = _ENDPOINTS[provider]
     params = _params(url)
+    attempts = max_attempts if max_attempts is not None else _max_attempts()
     last_status = 0
-    for attempt in range(max_attempts):
+    for attempt in range(attempts):
         try:
             r = requests.get(endpoint, params=params, timeout=timeout)
             last_status = r.status_code
             if r.status_code == 200 and r.text:
                 return 200, r.text
-            print(f"[unblock] {provider} status {r.status_code} for {url} "
-                  f"(attempt {attempt + 1}/{max_attempts})")
+            # Non-200: a block or provider error. Retrying an already-returned
+            # response burns credits without clearing Cloudflare, so stop here.
+            print(f"[unblock] {provider} status {r.status_code} for {url}")
+            return last_status, None
         except Exception as e:
-            print(f"[unblock] {provider} attempt {attempt + 1} error: {e}")
-        time.sleep(2 ** (attempt + 1))
+            print(f"[unblock] {provider} attempt {attempt + 1}/{attempts} error: {e}")
+            if attempt + 1 < attempts:
+                time.sleep(2 ** (attempt + 1))
     print(f"[unblock] {provider} gave up on {url} (last status {last_status})")
     return last_status, None

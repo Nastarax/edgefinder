@@ -31,6 +31,7 @@ from src.fetchers import (investing, investing_adp, investing_consumer_conf,
                           investing_ppi, investing_retail_sales, myfxbook_ppi,
                           services_pmi)
 from src.fetchers import release_calendar as rc
+from src.fetchers import unblock
 
 
 def _summarize(label: str, all_keys, fresh_set, results):
@@ -61,6 +62,16 @@ def refresh_mpmi():
         print("\nmPMI: all currencies fetched fresh.")
         return
 
+    # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
+    # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
+    # scraping API each re-fetch of a still-blocked cell is another billed
+    # request (a Cloudflare block page comes back as a billed 200), so skip it:
+    # pass 1 already saved whatever succeeded, and the laptop will pick up the
+    # rest on a later run.
+    if unblock.enabled():
+        print(f"  skipping pass-2 retry under the scraper to save credits; "
+              f"laptop will recover: {sorted(failed)}")
+        return
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing.MPMI_URLS.copy()
@@ -107,6 +118,16 @@ def refresh_spmi():
         print("\nsPMI: all currencies fetched fresh.")
         return
 
+    # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
+    # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
+    # scraping API each re-fetch of a still-blocked cell is another billed
+    # request (a Cloudflare block page comes back as a billed 200), so skip it:
+    # pass 1 already saved whatever succeeded, and the laptop will pick up the
+    # rest on a later run.
+    if unblock.enabled():
+        print(f"  skipping pass-2 retry under the scraper to save credits; "
+              f"laptop will recover: {sorted(failed)}")
+        return
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig_investing = services_pmi.SPMI_INVESTING_URLS.copy()
@@ -164,6 +185,16 @@ def refresh_cpi():
         print("\nCPI: all currencies fetched fresh.")
         return
 
+    # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
+    # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
+    # scraping API each re-fetch of a still-blocked cell is another billed
+    # request (a Cloudflare block page comes back as a billed 200), so skip it:
+    # pass 1 already saved whatever succeeded, and the laptop will pick up the
+    # rest on a later run.
+    if unblock.enabled():
+        print(f"  skipping pass-2 retry under the scraper to save credits; "
+              f"laptop will recover: {sorted(failed)}")
+        return
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_cpi.CPI_URLS.copy()
@@ -203,6 +234,16 @@ def refresh_ppi():
         print("\nPPI (NZD): fetched fresh.")
         return
 
+    # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
+    # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
+    # scraping API each re-fetch of a still-blocked cell is another billed
+    # request (a Cloudflare block page comes back as a billed 200), so skip it:
+    # pass 1 already saved whatever succeeded, and the laptop will pick up the
+    # rest on a later run.
+    if unblock.enabled():
+        print(f"  skipping pass-2 retry under the scraper to save credits; "
+              f"laptop will recover: {sorted(failed)}")
+        return
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_ppi.PPI_URLS.copy()
@@ -242,6 +283,16 @@ def refresh_gdp():
         print("\nGDP (JPY): fetched fresh.")
         return
 
+    # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
+    # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
+    # scraping API each re-fetch of a still-blocked cell is another billed
+    # request (a Cloudflare block page comes back as a billed 200), so skip it:
+    # pass 1 already saved whatever succeeded, and the laptop will pick up the
+    # rest on a later run.
+    if unblock.enabled():
+        print(f"  skipping pass-2 retry under the scraper to save credits; "
+              f"laptop will recover: {sorted(failed)}")
+        return
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_gdp.GDP_URLS.copy()
@@ -281,6 +332,16 @@ def refresh_household():
         print("\nHousehold Spending (JPY): fetched fresh.")
         return
 
+    # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
+    # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
+    # scraping API each re-fetch of a still-blocked cell is another billed
+    # request (a Cloudflare block page comes back as a billed 200), so skip it:
+    # pass 1 already saved whatever succeeded, and the laptop will pick up the
+    # rest on a later run.
+    if unblock.enabled():
+        print(f"  skipping pass-2 retry under the scraper to save credits; "
+              f"laptop will recover: {sorted(failed)}")
+        return
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_household.HOUSEHOLD_URLS.copy()
@@ -320,6 +381,16 @@ def refresh_consumer_conf():
         print("\nConsumer Confidence (USD): fetched fresh.")
         return
 
+    # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
+    # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
+    # scraping API each re-fetch of a still-blocked cell is another billed
+    # request (a Cloudflare block page comes back as a billed 200), so skip it:
+    # pass 1 already saved whatever succeeded, and the laptop will pick up the
+    # rest on a later run.
+    if unblock.enabled():
+        print(f"  skipping pass-2 retry under the scraper to save credits; "
+              f"laptop will recover: {sorted(failed)}")
+        return
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_consumer_conf.CC_URLS.copy()
@@ -359,6 +430,16 @@ def refresh_jolts():
         print("\nJOLTS (USD): fetched fresh.")
         return
 
+    # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
+    # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
+    # scraping API each re-fetch of a still-blocked cell is another billed
+    # request (a Cloudflare block page comes back as a billed 200), so skip it:
+    # pass 1 already saved whatever succeeded, and the laptop will pick up the
+    # rest on a later run.
+    if unblock.enabled():
+        print(f"  skipping pass-2 retry under the scraper to save credits; "
+              f"laptop will recover: {sorted(failed)}")
+        return
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_jolts.JOLTS_URLS.copy()
@@ -398,6 +479,16 @@ def refresh_adp():
         print("\nADP (USD): fetched fresh.")
         return
 
+    # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
+    # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
+    # scraping API each re-fetch of a still-blocked cell is another billed
+    # request (a Cloudflare block page comes back as a billed 200), so skip it:
+    # pass 1 already saved whatever succeeded, and the laptop will pick up the
+    # rest on a later run.
+    if unblock.enabled():
+        print(f"  skipping pass-2 retry under the scraper to save credits; "
+              f"laptop will recover: {sorted(failed)}")
+        return
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_adp.ADP_URLS.copy()
@@ -437,6 +528,16 @@ def refresh_pce():
         print("\nCore PCE (USD): fetched fresh.")
         return
 
+    # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
+    # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
+    # scraping API each re-fetch of a still-blocked cell is another billed
+    # request (a Cloudflare block page comes back as a billed 200), so skip it:
+    # pass 1 already saved whatever succeeded, and the laptop will pick up the
+    # rest on a later run.
+    if unblock.enabled():
+        print(f"  skipping pass-2 retry under the scraper to save credits; "
+              f"laptop will recover: {sorted(failed)}")
+        return
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_pce.PCE_URLS.copy()
@@ -476,6 +577,16 @@ def refresh_mfx_ppi():
         print("\nMyfxbook PPI: fetched fresh.")
         return
 
+    # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
+    # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
+    # scraping API each re-fetch of a still-blocked cell is another billed
+    # request (a Cloudflare block page comes back as a billed 200), so skip it:
+    # pass 1 already saved whatever succeeded, and the laptop will pick up the
+    # rest on a later run.
+    if unblock.enabled():
+        print(f"  skipping pass-2 retry under the scraper to save credits; "
+              f"laptop will recover: {sorted(failed)}")
+        return
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     second = myfxbook_ppi.fetch_ppi(sleep_between=15.0)
@@ -507,6 +618,16 @@ def refresh_cad_retail():
         print("\nCAD Retail Sales: fetched fresh.")
         return
 
+    # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
+    # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
+    # scraping API each re-fetch of a still-blocked cell is another billed
+    # request (a Cloudflare block page comes back as a billed 200), so skip it:
+    # pass 1 already saved whatever succeeded, and the laptop will pick up the
+    # rest on a later run.
+    if unblock.enabled():
+        print(f"  skipping pass-2 retry under the scraper to save credits; "
+              f"laptop will recover: {sorted(failed)}")
+        return
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     second = investing_retail_sales.fetch_retail_sales(sleep_between=15.0)
@@ -537,6 +658,16 @@ def refresh_core():
         print("\nCore: all indicators fetched fresh.")
         return
 
+    # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
+    # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
+    # scraping API each re-fetch of a still-blocked cell is another billed
+    # request (a Cloudflare block page comes back as a billed 200), so skip it:
+    # pass 1 already saved whatever succeeded, and the laptop will pick up the
+    # rest on a later run.
+    if unblock.enabled():
+        print(f"  skipping pass-2 retry under the scraper to save credits; "
+              f"laptop will recover: {sorted(failed)}")
+        return
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_core.CORE_URLS.copy()
