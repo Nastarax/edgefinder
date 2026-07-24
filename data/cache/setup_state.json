@@ -7,12 +7,12 @@
  "NZDUSD": {
   "setup": "mid",
   "bias": "Very Bullish",
-  "loc": 46
+  "loc": 51
  },
  "UK100": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 96
+  "loc": 80
  },
  "AUDCAD": {
   "setup": "mid",
@@ -127,7 +127,7 @@
  "EURGBP": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 30
+  "loc": 31
  },
  "EURAUD": {
   "setup": null,
@@ -162,12 +162,12 @@
  "EURNZD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 25
+  "loc": 24
  },
  "GBPNZD": {
   "setup": "mid",
   "bias": "Bearish",
-  "loc": 51
+  "loc": 39
  },
  "AUDNZD": {
   "setup": "mid",
