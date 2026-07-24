@@ -64,11 +64,6 @@
   "bias": "Neutral",
   "loc": 94
  },
- "DAX": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 57
- },
  "SILVER": {
   "setup": null,
   "bias": "Neutral",
@@ -103,6 +98,11 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 93
+ },
+ "DAX": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 39
  },
  "USDCAD": {
   "setup": null,
