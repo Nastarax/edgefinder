@@ -24,6 +24,11 @@
   "bias": "Bullish",
   "loc": 88
  },
+ "XAUUSD": {
+  "setup": "watch",
+  "bias": "Bullish",
+  "loc": 17
+ },
  "NZDJPY": {
   "setup": "extended",
   "bias": "Bullish",
@@ -39,7 +44,7 @@
   "bias": "Neutral",
   "loc": 36
  },
- "XAUUSD": {
+ "SILVER": {
   "setup": null,
   "bias": "Neutral",
   "loc": 17
@@ -63,11 +68,6 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 93
- },
- "SILVER": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 17
  },
  "EURJPY": {
   "setup": null,
