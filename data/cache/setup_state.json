@@ -24,11 +24,6 @@
   "bias": "Bullish",
   "loc": 88
  },
- "XAUUSD": {
-  "setup": "watch",
-  "bias": "Bullish",
-  "loc": 17
- },
  "NZDJPY": {
   "setup": "extended",
   "bias": "Bullish",
@@ -43,6 +38,11 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 36
+ },
+ "XAUUSD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 17
  },
  "GBPUSD": {
   "setup": null,
