@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26T20:37:37Z",
+  "generated": "2026-07-26T21:22:21Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -55,7 +55,7 @@
       "next_basis": "estimated",
       "days_until": -27,
       "status": "due",
-      "last_checked": "2026-07-26T20:37:37Z"
+      "last_checked": "2026-07-26T21:22:21Z"
     },
     "CHF|gdp": {
       "currency": "CHF",
@@ -293,7 +293,7 @@
       "next_basis": "estimated",
       "days_until": -25,
       "status": "due",
-      "last_checked": "2026-07-26T20:37:37Z"
+      "last_checked": "2026-07-26T21:22:21Z"
     },
     "AUD|spmi": {
       "currency": "AUD",
@@ -433,7 +433,7 @@
       "next_basis": "estimated",
       "days_until": -9,
       "status": "due",
-      "last_checked": "2026-07-26T20:37:37Z"
+      "last_checked": "2026-07-26T21:22:21Z"
     },
     "NZD|retail_sales": {
       "currency": "NZD",
@@ -461,7 +461,7 @@
       "next_basis": "estimated",
       "days_until": -12,
       "status": "due",
-      "last_checked": "2026-07-26T20:37:37Z"
+      "last_checked": "2026-07-26T21:22:21Z"
     },
     "EUR|consumer_conf": {
       "currency": "EUR",
@@ -615,7 +615,7 @@
       "next_basis": "estimated",
       "days_until": -7,
       "status": "due",
-      "last_checked": "2026-07-26T20:37:37Z"
+      "last_checked": "2026-07-26T21:22:21Z"
     },
     "CHF|cpi": {
       "currency": "CHF",
@@ -1021,7 +1021,7 @@
       "next_basis": "estimated",
       "days_until": -3,
       "status": "due",
-      "last_checked": "2026-07-26T20:37:37Z"
+      "last_checked": "2026-07-26T21:22:21Z"
     },
     "USD|nfp": {
       "currency": "USD",
