@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27T06:22:16Z",
+  "generated": "2026-07-27T14:24:56Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -55,7 +55,7 @@
       "next_basis": "estimated",
       "days_until": -28,
       "status": "due",
-      "last_checked": "2026-07-27T06:22:16Z"
+      "last_checked": "2026-07-27T14:24:56Z"
     },
     "CHF|gdp": {
       "currency": "CHF",
@@ -293,7 +293,7 @@
       "next_basis": "estimated",
       "days_until": -26,
       "status": "due",
-      "last_checked": "2026-07-27T06:22:16Z"
+      "last_checked": "2026-07-27T14:24:56Z"
     },
     "AUD|spmi": {
       "currency": "AUD",
@@ -461,7 +461,7 @@
       "next_basis": "estimated",
       "days_until": -13,
       "status": "due",
-      "last_checked": "2026-07-27T06:22:16Z"
+      "last_checked": "2026-07-27T14:24:56Z"
     },
     "EUR|consumer_conf": {
       "currency": "EUR",
@@ -608,13 +608,13 @@
       "indicator": "cpi",
       "label": "CPI YoY",
       "source": "investing",
-      "last_release": "2026-06-18",
+      "last_release": "2026-07-23",
       "period_days": 31,
       "period_basis": "derived",
-      "next_release": "2026-07-19",
+      "next_release": "2026-08-23",
       "next_basis": "estimated",
-      "days_until": -8,
-      "status": "due",
+      "days_until": 27,
+      "status": "upcoming",
       "last_checked": "2026-07-27T06:22:16Z"
     },
     "CHF|cpi": {
@@ -989,10 +989,10 @@
       "last_release": null,
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-07-27",
+      "next_release": "2026-07-29",
       "next_basis": "exact",
-      "days_until": 0,
-      "status": "due",
+      "days_until": 2,
+      "status": "upcoming",
       "last_checked": null
     },
     "NZD|rates": {
@@ -1021,7 +1021,7 @@
       "next_basis": "estimated",
       "days_until": -4,
       "status": "due",
-      "last_checked": "2026-07-27T06:22:16Z"
+      "last_checked": "2026-07-27T14:24:56Z"
     },
     "USD|nfp": {
       "currency": "USD",
