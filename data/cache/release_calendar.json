@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27T14:24:56Z",
+  "generated": "2026-07-27T15:12:19Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -55,7 +55,7 @@
       "next_basis": "estimated",
       "days_until": -28,
       "status": "due",
-      "last_checked": "2026-07-27T14:24:56Z"
+      "last_checked": "2026-07-27T15:12:19Z"
     },
     "CHF|gdp": {
       "currency": "CHF",
@@ -293,7 +293,7 @@
       "next_basis": "estimated",
       "days_until": -26,
       "status": "due",
-      "last_checked": "2026-07-27T14:24:56Z"
+      "last_checked": "2026-07-27T15:12:19Z"
     },
     "AUD|spmi": {
       "currency": "AUD",
@@ -461,7 +461,7 @@
       "next_basis": "estimated",
       "days_until": -13,
       "status": "due",
-      "last_checked": "2026-07-27T14:24:56Z"
+      "last_checked": "2026-07-27T15:12:19Z"
     },
     "EUR|consumer_conf": {
       "currency": "EUR",
@@ -1021,7 +1021,7 @@
       "next_basis": "estimated",
       "days_until": -4,
       "status": "due",
-      "last_checked": "2026-07-27T14:24:56Z"
+      "last_checked": "2026-07-27T15:12:19Z"
     },
     "USD|nfp": {
       "currency": "USD",
