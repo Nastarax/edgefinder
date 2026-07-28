@@ -43,8 +43,13 @@ INDICATOR_PATTERNS = [
     # PMIs
     ("mpmi",             ["manufacturing pmi", "mfg pmi", "manufacturing index", "ism manufacturing", "caixin manufacturing"]),
     ("spmi",             ["services pmi", "non-manufacturing pmi", "services index", "ism non-manufacturing", "ism services", "caixin services"]),
-    # Headline inflation
-    ("cpi",              ["cpi y/y", "cpi m/m", "cpi yoy", "cpi mom"]),
+    # Headline inflation. Vector's CPI cell is YoY, so only y/y events map to the
+    # cpi id: an m/m print reaching the generic TE+FF fallback (which happens if a
+    # currency's Investing CPI cache is ever empty) would be scored as a YoY
+    # surprise, mixing a ~0.1 monthly figure into a ~0.3 annual cell. (PPI has the
+    # same m/m patterns but its scoring block always continues via TE/Investing/
+    # Myfxbook and never reaches the FF fallback, so it is left as-is.)
+    ("cpi",              ["cpi y/y", "cpi yoy"]),
     ("ppi",              ["ppi y/y", "ppi m/m", "ppi yoy", "ppi mom", "producer price"]),
     # Jobs
     ("jobless_claims",   ["unemployment claims", "jobless claims", "initial claims", "claimant count"]),
