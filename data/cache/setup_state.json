@@ -89,11 +89,6 @@
   "bias": "Neutral",
   "loc": 39
  },
- "DAX": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 85
- },
  "PLATINUM": {
   "setup": null,
   "bias": "Neutral",
@@ -108,6 +103,11 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 65
+ },
+ "DAX": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 84
  },
  "GBPJPY": {
   "setup": null,
