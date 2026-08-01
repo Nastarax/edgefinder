@@ -1,4 +1,9 @@
 {
+ "EURUSD": {
+  "setup": "extended",
+  "bias": "Very Bullish",
+  "loc": 68
+ },
  "XAUUSD": {
   "setup": "watch",
   "bias": "Very Bullish",
@@ -8,11 +13,6 @@
   "setup": "mid",
   "bias": "Very Bullish",
   "loc": 58
- },
- "EURUSD": {
-  "setup": "extended",
-  "bias": "Very Bullish",
-  "loc": 68
  },
  "NZDCAD": {
   "setup": "extended",
@@ -28,6 +28,11 @@
   "setup": "extended",
   "bias": "Bullish",
   "loc": 72
+ },
+ "EURCHF": {
+  "setup": "extended",
+  "bias": "Bullish",
+  "loc": 75
  },
  "EURAUD": {
   "setup": "mid",
@@ -48,11 +53,6 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 39
- },
- "EURCHF": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 75
  },
  "GBPAUD": {
   "setup": null,
