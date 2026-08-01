@@ -4,11 +4,6 @@
   "bias": "Very Bullish",
   "loc": 16
  },
- "NZDUSD": {
-  "setup": "extended",
-  "bias": "Very Bullish",
-  "loc": 96
- },
  "EURCAD": {
   "setup": "mid",
   "bias": "Very Bullish",
@@ -24,32 +19,27 @@
   "bias": "Very Bullish",
   "loc": 89
  },
+ "NZDUSD": {
+  "setup": "extended",
+  "bias": "Bullish",
+  "loc": 96
+ },
  "GBPUSD": {
   "setup": "extended",
   "bias": "Bullish",
   "loc": 84
- },
- "NZDCHF": {
-  "setup": "extended",
-  "bias": "Bullish",
-  "loc": 88
  },
  "AUDUSD": {
   "setup": "extended",
   "bias": "Bullish",
   "loc": 72
  },
- "EURCHF": {
-  "setup": "extended",
-  "bias": "Bullish",
-  "loc": 75
- },
  "EURAUD": {
   "setup": "mid",
   "bias": "Bullish",
   "loc": 43
  },
- "GBPCHF": {
+ "NZDCHF": {
   "setup": "extended",
   "bias": "Bullish",
   "loc": 88
@@ -64,6 +54,11 @@
   "bias": "Neutral",
   "loc": 39
  },
+ "EURCHF": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 75
+ },
  "GBPAUD": {
   "setup": null,
   "bias": "Neutral",
@@ -74,10 +69,20 @@
   "bias": "Neutral",
   "loc": 68
  },
+ "NIKKEI": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 32
+ },
  "UK100": {
   "setup": null,
   "bias": "Neutral",
   "loc": 86
+ },
+ "GBPCHF": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 88
  },
  "NZDJPY": {
   "setup": null,
@@ -104,16 +109,6 @@
   "bias": "Neutral",
   "loc": 6
  },
- "CADCHF": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 62
- },
- "NIKKEI": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 32
- },
  "DAX": {
   "setup": null,
   "bias": "Neutral",
@@ -124,15 +119,15 @@
   "bias": "Neutral",
   "loc": 0
  },
- "AUDCHF": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 61
- },
  "USDCAD": {
   "setup": null,
   "bias": "Neutral",
   "loc": 34
+ },
+ "CADCHF": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 62
  },
  "USDCHF": {
   "setup": null,
@@ -144,15 +139,20 @@
   "bias": "Neutral",
   "loc": 0
  },
+ "CHFJPY": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 1
+ },
+ "AUDCHF": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 61
+ },
  "GBPNZD": {
   "setup": null,
   "bias": "Neutral",
   "loc": 12
- },
- "CHFJPY": {
-  "setup": "extended",
-  "bias": "Bearish",
-  "loc": 1
  },
  "NASDAQ": {
   "setup": "extended",
