@@ -84,11 +84,6 @@
   "bias": "Neutral",
   "loc": 88
  },
- "PLATINUM": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 33
- },
  "NZDJPY": {
   "setup": null,
   "bias": "Neutral",
@@ -103,6 +98,11 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 46
+ },
+ "PLATINUM": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 33
  },
  "EURJPY": {
   "setup": null,
