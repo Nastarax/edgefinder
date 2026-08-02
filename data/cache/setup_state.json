@@ -34,6 +34,11 @@
   "bias": "Bullish",
   "loc": 72
  },
+ "NIKKEI": {
+  "setup": "watch",
+  "bias": "Bullish",
+  "loc": 32
+ },
  "SILVER": {
   "setup": "watch",
   "bias": "Bullish",
@@ -68,11 +73,6 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 68
- },
- "NIKKEI": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 32
  },
  "UK100": {
   "setup": null,
