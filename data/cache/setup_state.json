@@ -2,7 +2,7 @@
  "XAUUSD": {
   "setup": "watch",
   "bias": "Very Bullish",
-  "loc": 16
+  "loc": 26
  },
  "EURCAD": {
   "setup": "mid",
@@ -34,6 +34,11 @@
   "bias": "Bullish",
   "loc": 72
  },
+ "SILVER": {
+  "setup": "watch",
+  "bias": "Bullish",
+  "loc": 14
+ },
  "EURAUD": {
   "setup": "mid",
   "bias": "Bullish",
@@ -43,11 +48,6 @@
   "setup": "extended",
   "bias": "Bullish",
   "loc": 88
- },
- "SILVER": {
-  "setup": "watch",
-  "bias": "Bullish",
-  "loc": 13
  },
  "EURGBP": {
   "setup": null,
@@ -102,7 +102,7 @@
  "PLATINUM": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 33
+  "loc": 35
  },
  "EURJPY": {
   "setup": null,
