@@ -2,176 +2,176 @@
  "NZDCAD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 90
+  "loc": 100
  },
  "XAUUSD": {
-  "setup": "watch",
+  "setup": "mid",
   "bias": "Very Bullish",
-  "loc": 28
- },
- "EURCAD": {
-  "setup": "mid",
-  "bias": "Bullish",
-  "loc": 57
- },
- "NZDCHF": {
-  "setup": "extended",
-  "bias": "Bullish",
-  "loc": 96
- },
- "NZDUSD": {
-  "setup": "extended",
-  "bias": "Bullish",
-  "loc": 88
- },
- "AUDCAD": {
-  "setup": "mid",
-  "bias": "Bullish",
-  "loc": 60
- },
- "SILVER": {
-  "setup": "watch",
-  "bias": "Bullish",
-  "loc": 22
- },
- "EURUSD": {
-  "setup": "mid",
-  "bias": "Bullish",
-  "loc": 63
- },
- "AUDUSD": {
-  "setup": "extended",
-  "bias": "Bullish",
-  "loc": 73
+  "loc": 41
  },
  "GBPCAD": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 69
+  "loc": 67
+ },
+ "NZDUSD": {
+  "setup": "extended",
+  "bias": "Bullish",
+  "loc": 93
+ },
+ "EURCAD": {
+  "setup": "extended",
+  "bias": "Bullish",
+  "loc": 71
+ },
+ "NZDCHF": {
+  "setup": "extended",
+  "bias": "Bullish",
+  "loc": 98
+ },
+ "AUDCAD": {
+  "setup": "extended",
+  "bias": "Bullish",
+  "loc": 71
+ },
+ "SILVER": {
+  "setup": "watch",
+  "bias": "Bullish",
+  "loc": 29
+ },
+ "EURUSD": {
+  "setup": "extended",
+  "bias": "Bullish",
+  "loc": 66
+ },
+ "AUDUSD": {
+  "setup": "extended",
+  "bias": "Bullish",
+  "loc": 76
  },
  "UK100": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 88
+  "loc": 92
+ },
+ "PLATINUM": {
+  "setup": "extended",
+  "bias": "Bullish",
+  "loc": 70
  },
  "GBPUSD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 75
+  "loc": 76
  },
  "EURCHF": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 85
+  "loc": 81
  },
  "NIKKEI": {
   "setup": null,
   "bias": "Neutral",
   "loc": 28
  },
- "PLATINUM": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 48
- },
  "NZDJPY": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 40
+  "loc": 37
  },
  "EURGBP": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 44
+  "loc": 46
  },
  "EURAUD": {
   "setup": null,
   "bias": "Neutral",
   "loc": 34
  },
- "GBPCHF": {
+ "GBPAUD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 90
- },
- "AUDCHF": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 80
+  "loc": 61
  },
  "USDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 40
+  "loc": 46
+ },
+ "GBPCHF": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 86
+ },
+ "AUDCHF": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 78
+ },
+ "DAX": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 98
+ },
+ "GBPJPY": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 20
  },
  "NASDAQ": {
   "setup": null,
   "bias": "Neutral",
   "loc": 32
  },
- "DAX": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 95
- },
- "GBPJPY": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 27
- },
- "GBPAUD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 58
- },
- "USDCHF": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 65
- },
  "EURJPY": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 30
- },
- "AUDJPY": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 32
- },
- "AUDNZD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 17
- },
- "CADCHF": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 72
- },
- "CHFJPY": {
   "setup": null,
   "bias": "Neutral",
   "loc": 23
  },
+ "AUDJPY": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 27
+ },
+ "EURNZD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 17
+ },
+ "USDCHF": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 61
+ },
+ "CHFJPY": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 26
+ },
+ "AUDNZD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 10
+ },
+ "CADCHF": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 62
+ },
  "USDJPY": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 31
- },
- "EURNZD": {
-  "setup": "extended",
-  "bias": "Bearish",
-  "loc": 19
+  "loc": 24
  },
  "CADJPY": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 29
+  "loc": 19
  },
  "GBPNZD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 5
+  "loc": 1
  }
 }
