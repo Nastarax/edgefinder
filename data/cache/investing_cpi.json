@@ -12,10 +12,10 @@
     "previous": 3.2
   },
   "EUR": {
-    "date": "2026-07-17",
-    "actual": 2.8,
-    "forecast": 2.8,
-    "previous": 3.2
+    "date": "2026-07-31",
+    "actual": 2.9,
+    "forecast": 2.9,
+    "previous": 2.8
   },
   "GBP": {
     "date": "2026-07-22",
@@ -24,10 +24,10 @@
     "previous": 2.8
   },
   "AUD": {
-    "date": "2026-04-29",
-    "actual": 4.1,
-    "forecast": 4.2,
-    "previous": 3.6
+    "date": "2026-07-29",
+    "actual": 3.9,
+    "forecast": 4.1,
+    "previous": 4.1
   },
   "NZD": {
     "date": "2026-07-20",
@@ -36,10 +36,10 @@
     "previous": 3.1
   },
   "CHF": {
-    "date": "2026-07-02",
-    "actual": 0.5,
-    "forecast": 0.5,
-    "previous": 0.6
+    "date": "2026-08-03",
+    "actual": 0.4,
+    "forecast": null,
+    "previous": 0.5
   },
   "JPY": {
     "date": "2026-07-23",
