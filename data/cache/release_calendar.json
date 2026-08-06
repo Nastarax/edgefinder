@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-05T17:25:37Z",
+  "generated": "2026-08-06T02:25:23Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -55,7 +55,7 @@
       "next_basis": "estimated",
       "days_until": -37,
       "status": "due",
-      "last_checked": "2026-08-05T17:25:37Z"
+      "last_checked": "2026-08-06T02:25:23Z"
     },
     "CHF|gdp": {
       "currency": "CHF",
@@ -209,7 +209,7 @@
       "next_basis": "estimated",
       "days_until": -4,
       "status": "due",
-      "last_checked": "2026-08-05T17:25:37Z"
+      "last_checked": "2026-08-06T02:25:23Z"
     },
     "NZD|mpmi": {
       "currency": "NZD",
@@ -237,7 +237,7 @@
       "next_basis": "estimated",
       "days_until": 0,
       "status": "due",
-      "last_checked": "2026-08-05T17:25:37Z"
+      "last_checked": "2026-08-06T02:25:23Z"
     },
     "EUR|spmi": {
       "currency": "EUR",
@@ -293,7 +293,7 @@
       "next_basis": "estimated",
       "days_until": -5,
       "status": "due",
-      "last_checked": "2026-08-05T17:25:37Z"
+      "last_checked": "2026-08-06T02:25:23Z"
     },
     "AUD|spmi": {
       "currency": "AUD",
@@ -321,7 +321,7 @@
       "next_basis": "estimated",
       "days_until": 0,
       "status": "due",
-      "last_checked": "2026-08-05T17:25:37Z"
+      "last_checked": "2026-08-06T02:25:23Z"
     },
     "NZD|spmi": {
       "currency": "NZD",
@@ -1049,7 +1049,7 @@
       "next_basis": "estimated",
       "days_until": -7,
       "status": "due",
-      "last_checked": "2026-08-05T17:25:37Z"
+      "last_checked": "2026-08-06T02:25:23Z"
     },
     "USD|jolts": {
       "currency": "USD",
@@ -1063,7 +1063,7 @@
       "next_basis": "estimated",
       "days_until": -8,
       "status": "due",
-      "last_checked": "2026-08-05T17:25:37Z"
+      "last_checked": "2026-08-06T02:25:23Z"
     },
     "USD|jobless_claims": {
       "currency": "USD",
@@ -1091,7 +1091,7 @@
       "next_basis": "estimated",
       "days_until": 0,
       "status": "due",
-      "last_checked": "2026-08-05T17:25:37Z"
+      "last_checked": "2026-08-06T02:25:23Z"
     }
   }
 }
