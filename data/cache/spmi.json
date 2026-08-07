@@ -24,16 +24,16 @@
     "previous": 50.5
   },
   "JPY": {
-    "date": "2026-07-24",
-    "actual": 51.9,
-    "forecast": null,
+    "date": "2026-08-05",
+    "actual": 51.2,
+    "forecast": 51.9,
     "previous": 52.2
   },
   "CAD": {
-    "date": "2026-07-06",
-    "actual": 47.1,
+    "date": "2026-08-06",
+    "actual": 49.1,
     "forecast": null,
-    "previous": 50.6
+    "previous": 47.1
   },
   "NZD": {
     "date": "2026-07-13",

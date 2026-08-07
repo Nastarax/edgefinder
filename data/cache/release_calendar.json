@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07T21:12:43Z",
+  "generated": "2026-08-07T22:08:20Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -55,7 +55,7 @@
       "next_basis": "estimated",
       "days_until": -39,
       "status": "due",
-      "last_checked": null
+      "last_checked": "2026-08-07T22:08:20Z"
     },
     "CHF|gdp": {
       "currency": "CHF",
@@ -272,12 +272,12 @@
       "indicator": "spmi",
       "label": "Services PMI",
       "source": "investing",
-      "last_release": "2026-07-24",
+      "last_release": "2026-08-05",
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-08-23",
+      "next_release": "2026-09-04",
       "next_basis": "estimated",
-      "days_until": 16,
+      "days_until": 28,
       "status": "upcoming",
       "last_checked": null
     },
@@ -314,14 +314,14 @@
       "indicator": "spmi",
       "label": "Services PMI",
       "source": "investing",
-      "last_release": "2026-07-06",
+      "last_release": "2026-08-06",
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-08-05",
+      "next_release": "2026-09-05",
       "next_basis": "estimated",
-      "days_until": -2,
-      "status": "due",
-      "last_checked": null
+      "days_until": 29,
+      "status": "upcoming",
+      "last_checked": "2026-08-07T22:08:20Z"
     },
     "NZD|spmi": {
       "currency": "NZD",
@@ -1084,14 +1084,14 @@
       "indicator": "household_spending",
       "label": "Household Spending",
       "source": "investing",
-      "last_release": "2026-07-06",
+      "last_release": "2026-08-06",
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-08-05",
+      "next_release": "2026-09-05",
       "next_basis": "estimated",
-      "days_until": -2,
-      "status": "due",
-      "last_checked": null
+      "days_until": 29,
+      "status": "upcoming",
+      "last_checked": "2026-08-07T22:08:20Z"
     }
   }
 }
