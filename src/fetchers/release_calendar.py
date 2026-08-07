@@ -262,8 +262,13 @@ def load_calendar() -> dict:
 
 
 def mark_checked(cal: dict, keys, ts: str | None = None):
-    """Stamp last_checked=now on the given cell keys (the due-gating backoff
-    records that we attempted a fetch even if no new release appeared)."""
+    """Stamp last_checked=now on the given cell keys.
+
+    Callers must pass only cells whose source page was fetched and parsed
+    successfully. A stamp means "we looked and there was no new print yet", so
+    the cell can safely go quiet for the cooldown. Stamping a cell whose fetch
+    FAILED silences it on data we never saw (see _DUE_COOLDOWN_HOURS in
+    scripts/refresh_investing.py)."""
     ts = ts or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     for k in keys:
         if k in cal.get("entries", {}):

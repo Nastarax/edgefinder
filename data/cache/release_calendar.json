@@ -55,7 +55,7 @@
       "next_basis": "estimated",
       "days_until": -39,
       "status": "due",
-      "last_checked": "2026-08-07T14:25:23Z"
+      "last_checked": null
     },
     "CHF|gdp": {
       "currency": "CHF",
@@ -209,7 +209,7 @@
       "next_basis": "estimated",
       "days_until": -6,
       "status": "due",
-      "last_checked": "2026-08-07T14:25:23Z"
+      "last_checked": null
     },
     "NZD|mpmi": {
       "currency": "NZD",
@@ -223,7 +223,7 @@
       "next_basis": "estimated",
       "days_until": 0,
       "status": "due",
-      "last_checked": "2026-08-07T13:08:50Z"
+      "last_checked": null
     },
     "USD|spmi": {
       "currency": "USD",
@@ -237,7 +237,7 @@
       "next_basis": "estimated",
       "days_until": -2,
       "status": "due",
-      "last_checked": "2026-08-07T14:25:23Z"
+      "last_checked": null
     },
     "EUR|spmi": {
       "currency": "EUR",
@@ -293,7 +293,7 @@
       "next_basis": "estimated",
       "days_until": -7,
       "status": "due",
-      "last_checked": "2026-08-07T14:25:23Z"
+      "last_checked": null
     },
     "AUD|spmi": {
       "currency": "AUD",
@@ -321,7 +321,7 @@
       "next_basis": "estimated",
       "days_until": -2,
       "status": "due",
-      "last_checked": "2026-08-07T14:25:23Z"
+      "last_checked": null
     },
     "NZD|spmi": {
       "currency": "NZD",
@@ -1049,7 +1049,7 @@
       "next_basis": "estimated",
       "days_until": -9,
       "status": "due",
-      "last_checked": "2026-08-07T14:25:23Z"
+      "last_checked": null
     },
     "USD|jolts": {
       "currency": "USD",
@@ -1063,7 +1063,7 @@
       "next_basis": "estimated",
       "days_until": -10,
       "status": "due",
-      "last_checked": "2026-08-07T14:25:23Z"
+      "last_checked": null
     },
     "USD|jobless_claims": {
       "currency": "USD",
@@ -1091,7 +1091,7 @@
       "next_basis": "estimated",
       "days_until": -2,
       "status": "due",
-      "last_checked": "2026-08-07T14:25:23Z"
+      "last_checked": null
     }
   }
 }

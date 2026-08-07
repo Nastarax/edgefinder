@@ -12,7 +12,10 @@ parse-failed), with longer sleeps to avoid the rate limiter.
 
 Each fetcher tracks which currencies it actually fetched fresh in a
 module-level `_LAST_FRESH` set. The script uses that (NOT the result dict,
-which mixes fresh + cached entries) to know what truly needs retry.
+which mixes fresh + cached entries) to know what truly needs retry. Every
+`refresh_*` returns the union of its passes' fresh keys, which `run_due` uses
+to decide which due cells earn the cooldown stamp: only cells we genuinely
+fetched. Blocked cells stay unstamped so the next run retries them.
 
 Run locally on Yanaël's Windows machine, then commit + push the JSON
 caches. GitHub Actions can't run this because Cloudflare blocks GitHub IPs.
@@ -45,7 +48,7 @@ def _summarize(label: str, all_keys, fresh_set, results):
         print(f"  missing entirely: {missing}")
 
 
-def refresh_mpmi():
+def refresh_mpmi() -> set[str]:
     print("\n============================================")
     print("REFRESHING MANUFACTURING PMI (mPMI)")
     print("============================================")
@@ -60,7 +63,7 @@ def refresh_mpmi():
     failed = [c for c in all_keys if c not in fresh1]
     if not failed:
         print("\nmPMI: all currencies fetched fresh.")
-        return
+        return fresh1
 
     # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
     # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
@@ -71,7 +74,7 @@ def refresh_mpmi():
     if unblock.enabled():
         print(f"  skipping pass-2 retry under the scraper to save credits; "
               f"laptop will recover: {sorted(failed)}")
-        return
+        return fresh1
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing.MPMI_URLS.copy()
@@ -93,8 +96,10 @@ def refresh_mpmi():
     else:
         print("mPMI: all previously-failed currencies recovered on pass 2.")
 
+    return fresh1 | fresh2
 
-def refresh_spmi():
+
+def refresh_spmi() -> set[str]:
     print("\n============================================")
     print("REFRESHING SERVICES PMI (sPMI)")
     print("============================================")
@@ -116,7 +121,7 @@ def refresh_spmi():
     failed = [c for c in all_keys if c not in fresh1]
     if not failed:
         print("\nsPMI: all currencies fetched fresh.")
-        return
+        return fresh1
 
     # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
     # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
@@ -127,7 +132,7 @@ def refresh_spmi():
     if unblock.enabled():
         print(f"  skipping pass-2 retry under the scraper to save credits; "
               f"laptop will recover: {sorted(failed)}")
-        return
+        return fresh1
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig_investing = services_pmi.SPMI_INVESTING_URLS.copy()
@@ -167,8 +172,10 @@ def refresh_spmi():
     else:
         print("sPMI: all previously-failed currencies recovered on pass 2.")
 
+    return fresh1 | fresh2
 
-def refresh_cpi():
+
+def refresh_cpi() -> set[str]:
     print("\n============================================")
     print("REFRESHING CPI YoY")
     print("============================================")
@@ -183,7 +190,7 @@ def refresh_cpi():
     failed = [c for c in all_keys if c not in fresh1]
     if not failed:
         print("\nCPI: all currencies fetched fresh.")
-        return
+        return fresh1
 
     # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
     # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
@@ -194,7 +201,7 @@ def refresh_cpi():
     if unblock.enabled():
         print(f"  skipping pass-2 retry under the scraper to save credits; "
               f"laptop will recover: {sorted(failed)}")
-        return
+        return fresh1
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_cpi.CPI_URLS.copy()
@@ -216,8 +223,10 @@ def refresh_cpi():
     else:
         print("CPI: all previously-failed currencies recovered on pass 2.")
 
+    return fresh1 | fresh2
 
-def refresh_ppi():
+
+def refresh_ppi() -> set[str]:
     print("\n============================================")
     print("REFRESHING PPI YoY (NZD + GBP via Investing)")
     print("============================================")
@@ -232,7 +241,7 @@ def refresh_ppi():
     failed = [c for c in all_keys if c not in fresh1]
     if not failed:
         print("\nPPI (NZD): fetched fresh.")
-        return
+        return fresh1
 
     # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
     # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
@@ -243,7 +252,7 @@ def refresh_ppi():
     if unblock.enabled():
         print(f"  skipping pass-2 retry under the scraper to save credits; "
               f"laptop will recover: {sorted(failed)}")
-        return
+        return fresh1
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_ppi.PPI_URLS.copy()
@@ -265,8 +274,10 @@ def refresh_ppi():
     else:
         print("PPI: recovered on pass 2.")
 
+    return fresh1 | fresh2
 
-def refresh_gdp():
+
+def refresh_gdp() -> set[str]:
     print("\n============================================")
     print("REFRESHING GDP QoQ (JPY only via Investing)")
     print("============================================")
@@ -281,7 +292,7 @@ def refresh_gdp():
     failed = [c for c in all_keys if c not in fresh1]
     if not failed:
         print("\nGDP (JPY): fetched fresh.")
-        return
+        return fresh1
 
     # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
     # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
@@ -292,7 +303,7 @@ def refresh_gdp():
     if unblock.enabled():
         print(f"  skipping pass-2 retry under the scraper to save credits; "
               f"laptop will recover: {sorted(failed)}")
-        return
+        return fresh1
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_gdp.GDP_URLS.copy()
@@ -314,8 +325,10 @@ def refresh_gdp():
     else:
         print("GDP: recovered on pass 2.")
 
+    return fresh1 | fresh2
 
-def refresh_household():
+
+def refresh_household() -> set[str]:
     print("\n============================================")
     print("REFRESHING HOUSEHOLD SPENDING (JPY only via Investing)")
     print("============================================")
@@ -330,7 +343,7 @@ def refresh_household():
     failed = [c for c in all_keys if c not in fresh1]
     if not failed:
         print("\nHousehold Spending (JPY): fetched fresh.")
-        return
+        return fresh1
 
     # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
     # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
@@ -341,7 +354,7 @@ def refresh_household():
     if unblock.enabled():
         print(f"  skipping pass-2 retry under the scraper to save credits; "
               f"laptop will recover: {sorted(failed)}")
-        return
+        return fresh1
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_household.HOUSEHOLD_URLS.copy()
@@ -363,8 +376,10 @@ def refresh_household():
     else:
         print("Household: recovered on pass 2.")
 
+    return fresh1 | fresh2
 
-def refresh_consumer_conf():
+
+def refresh_consumer_conf() -> set[str]:
     print("\n============================================")
     print("REFRESHING US CONSUMER CONFIDENCE (CB, USD only via Investing)")
     print("============================================")
@@ -379,7 +394,7 @@ def refresh_consumer_conf():
     failed = [c for c in all_keys if c not in fresh1]
     if not failed:
         print("\nConsumer Confidence (USD): fetched fresh.")
-        return
+        return fresh1
 
     # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
     # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
@@ -390,7 +405,7 @@ def refresh_consumer_conf():
     if unblock.enabled():
         print(f"  skipping pass-2 retry under the scraper to save credits; "
               f"laptop will recover: {sorted(failed)}")
-        return
+        return fresh1
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_consumer_conf.CC_URLS.copy()
@@ -412,8 +427,10 @@ def refresh_consumer_conf():
     else:
         print("Consumer Confidence: recovered on pass 2.")
 
+    return fresh1 | fresh2
 
-def refresh_jolts():
+
+def refresh_jolts() -> set[str]:
     print("\n============================================")
     print("REFRESHING US JOLTS JOB OPENINGS (USD only via Investing)")
     print("============================================")
@@ -428,7 +445,7 @@ def refresh_jolts():
     failed = [c for c in all_keys if c not in fresh1]
     if not failed:
         print("\nJOLTS (USD): fetched fresh.")
-        return
+        return fresh1
 
     # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
     # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
@@ -439,7 +456,7 @@ def refresh_jolts():
     if unblock.enabled():
         print(f"  skipping pass-2 retry under the scraper to save credits; "
               f"laptop will recover: {sorted(failed)}")
-        return
+        return fresh1
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_jolts.JOLTS_URLS.copy()
@@ -461,8 +478,10 @@ def refresh_jolts():
     else:
         print("JOLTS: recovered on pass 2.")
 
+    return fresh1 | fresh2
 
-def refresh_adp():
+
+def refresh_adp() -> set[str]:
     print("\n============================================")
     print("REFRESHING US ADP EMPLOYMENT CHANGE (USD only via Investing)")
     print("============================================")
@@ -477,7 +496,7 @@ def refresh_adp():
     failed = [c for c in all_keys if c not in fresh1]
     if not failed:
         print("\nADP (USD): fetched fresh.")
-        return
+        return fresh1
 
     # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
     # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
@@ -488,7 +507,7 @@ def refresh_adp():
     if unblock.enabled():
         print(f"  skipping pass-2 retry under the scraper to save credits; "
               f"laptop will recover: {sorted(failed)}")
-        return
+        return fresh1
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_adp.ADP_URLS.copy()
@@ -510,8 +529,10 @@ def refresh_adp():
     else:
         print("ADP: recovered on pass 2.")
 
+    return fresh1 | fresh2
 
-def refresh_pce():
+
+def refresh_pce() -> set[str]:
     print("\n============================================")
     print("REFRESHING US CORE PCE PRICE INDEX YoY (USD only via Investing)")
     print("============================================")
@@ -526,7 +547,7 @@ def refresh_pce():
     failed = [c for c in all_keys if c not in fresh1]
     if not failed:
         print("\nCore PCE (USD): fetched fresh.")
-        return
+        return fresh1
 
     # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
     # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
@@ -537,7 +558,7 @@ def refresh_pce():
     if unblock.enabled():
         print(f"  skipping pass-2 retry under the scraper to save credits; "
               f"laptop will recover: {sorted(failed)}")
-        return
+        return fresh1
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_pce.PCE_URLS.copy()
@@ -559,8 +580,10 @@ def refresh_pce():
     else:
         print("Core PCE: recovered on pass 2.")
 
+    return fresh1 | fresh2
 
-def refresh_mfx_ppi():
+
+def refresh_mfx_ppi() -> set[str]:
     print("\n============================================")
     print("REFRESHING Myfxbook PPI YoY (CHF + AUD)")
     print("============================================")
@@ -575,7 +598,7 @@ def refresh_mfx_ppi():
     failed = [c for c in all_keys if c not in fresh1]
     if not failed:
         print("\nMyfxbook PPI: fetched fresh.")
-        return
+        return fresh1
 
     # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
     # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
@@ -586,7 +609,7 @@ def refresh_mfx_ppi():
     if unblock.enabled():
         print(f"  skipping pass-2 retry under the scraper to save credits; "
               f"laptop will recover: {sorted(failed)}")
-        return
+        return fresh1
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     second = myfxbook_ppi.fetch_ppi(sleep_between=15.0)
@@ -600,8 +623,10 @@ def refresh_mfx_ppi():
     else:
         print("Myfxbook PPI: recovered on pass 2.")
 
+    return fresh1 | fresh2
 
-def refresh_cad_retail():
+
+def refresh_cad_retail() -> set[str]:
     print("\n============================================")
     print("REFRESHING CAD Retail Sales MoM (via Investing.com)")
     print("============================================")
@@ -616,7 +641,7 @@ def refresh_cad_retail():
     failed = [c for c in all_keys if c not in fresh1]
     if not failed:
         print("\nCAD Retail Sales: fetched fresh.")
-        return
+        return fresh1
 
     # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
     # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
@@ -627,7 +652,7 @@ def refresh_cad_retail():
     if unblock.enabled():
         print(f"  skipping pass-2 retry under the scraper to save credits; "
               f"laptop will recover: {sorted(failed)}")
-        return
+        return fresh1
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     second = investing_retail_sales.fetch_retail_sales(sleep_between=15.0)
@@ -640,8 +665,10 @@ def refresh_cad_retail():
     else:
         print("CAD Retail Sales: recovered on pass 2.")
 
+    return fresh1 | fresh2
 
-def refresh_core():
+
+def refresh_core() -> set[str]:
     print("\n============================================")
     print("REFRESHING US CORE CPI + CORE PPI")
     print("============================================")
@@ -656,7 +683,7 @@ def refresh_core():
     failed = [c for c in all_keys if c not in fresh1]
     if not failed:
         print("\nCore: all indicators fetched fresh.")
-        return
+        return fresh1
 
     # Pass 2 re-fetches cells that pass 1 could not get fresh. On the laptop
     # (curl_cffi) that recovers transient Cloudflare blocks for free. Under the
@@ -667,7 +694,7 @@ def refresh_core():
     if unblock.enabled():
         print(f"  skipping pass-2 retry under the scraper to save credits; "
               f"laptop will recover: {sorted(failed)}")
-        return
+        return fresh1
     print(f"\n--- Pass 2: retry {failed} after 60s cooldown ---")
     time.sleep(60)
     orig = investing_core.CORE_URLS.copy()
@@ -686,6 +713,8 @@ def refresh_core():
         print(f"Core: still not fresh after 2 passes: {still_failed}")
     else:
         print("Core: all previously-failed indicators recovered on pass 2.")
+
+    return fresh1 | fresh2
 
 
 def refresh_cpi_history():
@@ -745,9 +774,15 @@ _CACHE_FILES = {
 # JPY CPI snapshot rides along with the CPI refresh.
 _EXTRA_CACHE_FILES = {"cpi": "data/cache/tokyo_core_cpi.json"}
 
-# Hours to wait before re-attempting a due cell that produced no new release
-# (release ran late or Cloudflare blocked us), so a late print does not make us
-# hammer the source every run.
+# Hours to wait before re-attempting a due cell whose page we FETCHED AND PARSED
+# successfully but which carried no new release (the print ran late), so a late
+# release does not make us hammer the source every run.
+#
+# This cooldown is deliberately NOT applied to cells whose fetch failed
+# (Cloudflare block / 429 / parse error). Stamping those was a bug: a blocked
+# cell went quiet for 8h and `--due` then reported "Nothing due to fetch" while
+# the data was genuinely stale (USD JOLTS + ADP sat a full print behind for
+# ~a week in Aug 2026). A blocked cell now retries on the next run.
 _DUE_COOLDOWN_HOURS = 8
 
 
@@ -831,17 +866,31 @@ def run_due(dry_run: bool = False):
             print(f"  {t:<11} <- {targets[t] or 'rides along'}")
         return
 
+    fresh_by_target: dict[str, set[str]] = {}
     for t in order:
         driving = targets[t]
         print(f"\n>>> target '{t}'  (due: {driving or 'rides along'})")
-        REFRESHERS[t]()
+        fresh_by_target[t] = REFRESHERS[t]() or set()
 
-    # Rebuild so next_release advances off any new prints, and stamp the cells
-    # we attempted so a still-due (late) release backs off for the cooldown.
+    # Rebuild so next_release advances off any new prints, then stamp ONLY the
+    # cells whose source page we actually fetched and parsed. A cell that is
+    # still due after a successful fetch just means the release ran late, so it
+    # earns the cooldown; a cell we never got (Cloudflare / 429 / parse error)
+    # is left unstamped so the next run retries it instead of going quiet for
+    # _DUE_COOLDOWN_HOURS on data we never saw.
     cal = rc.build_calendar(prior=cal)
-    attempted = [k for ks in targets.values() for k in ks]
-    rc.mark_checked(cal, attempted)
+    fetched, blocked = [], []
+    for t, keys in targets.items():
+        fresh = fresh_by_target.get(t, set())
+        for k in keys:
+            (fetched if k.split("|")[0] in fresh else blocked).append(k)
+    rc.mark_checked(cal, fetched)
     rc.save_calendar(cal)
+
+    if fetched:
+        print(f"\ncooldown stamped ({_DUE_COOLDOWN_HOURS}h, page fetched OK): {sorted(fetched)}")
+    if blocked:
+        print(f"NOT stamped (fetch failed, retry next run): {sorted(blocked)}")
 
     files = []
     for t in order:
