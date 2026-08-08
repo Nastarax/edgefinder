@@ -104,11 +104,6 @@
   "bias": "Neutral",
   "loc": 93
  },
- "NZDJPY": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 45
- },
  "NASDAQ": {
   "setup": null,
   "bias": "Neutral",
@@ -139,6 +134,11 @@
   "bias": "Neutral",
   "loc": 42
  },
+ "NZDJPY": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 45
+ },
  "GBPNZD": {
   "setup": null,
   "bias": "Neutral",
@@ -155,8 +155,8 @@
   "loc": 37
  },
  "CADJPY": {
-  "setup": null,
-  "bias": "Neutral",
+  "setup": "mid",
+  "bias": "Bearish",
   "loc": 41
  },
  "USDCAD": {
