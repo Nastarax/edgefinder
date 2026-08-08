@@ -54,6 +54,11 @@
   "bias": "Bullish",
   "loc": 46
  },
+ "UK100": {
+  "setup": "extended",
+  "bias": "Bullish",
+  "loc": 87
+ },
  "EURCAD": {
   "setup": null,
   "bias": "Neutral",
@@ -63,11 +68,6 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 42
- },
- "UK100": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 82
  },
  "GBPCAD": {
   "setup": null,
@@ -102,7 +102,7 @@
  "DAX": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 87
+  "loc": 93
  },
  "NASDAQ": {
   "setup": null,
