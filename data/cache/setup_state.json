@@ -7,7 +7,7 @@
  "XAUUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 93
+  "loc": 91
  },
  "EURUSD": {
   "setup": "extended",
@@ -47,7 +47,7 @@
  "SILVER": {
   "setup": "mid",
   "bias": "Bullish",
-  "loc": 55
+  "loc": 52
  },
  "AUDCAD": {
   "setup": "mid",
@@ -87,7 +87,7 @@
  "PLATINUM": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 81
+  "loc": 78
  },
  "EURGBP": {
   "setup": null,
