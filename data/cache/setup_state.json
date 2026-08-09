@@ -7,7 +7,7 @@
  "XAUUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 91
+  "loc": 93
  },
  "EURUSD": {
   "setup": "extended",
@@ -34,11 +34,6 @@
   "bias": "Bullish",
   "loc": 84
  },
- "SILVER": {
-  "setup": "mid",
-  "bias": "Bullish",
-  "loc": 52
- },
  "EURCHF": {
   "setup": "extended",
   "bias": "Bullish",
@@ -48,6 +43,11 @@
   "setup": "extended",
   "bias": "Bullish",
   "loc": 91
+ },
+ "SILVER": {
+  "setup": "mid",
+  "bias": "Bullish",
+  "loc": 53
  },
  "CADCHF": {
   "setup": "extended",
@@ -82,7 +82,7 @@
  "PLATINUM": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 78
+  "loc": 81
  },
  "NZDCAD": {
   "setup": null,
