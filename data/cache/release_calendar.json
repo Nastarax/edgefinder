@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-09T21:23:26Z",
+  "generated": "2026-08-09T23:23:26Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -947,10 +947,10 @@
       "last_release": null,
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-08-09",
+      "next_release": "2026-09-18",
       "next_basis": "exact",
-      "days_until": 0,
-      "status": "due",
+      "days_until": 40,
+      "status": "upcoming",
       "last_checked": null
     },
     "CHF|rates": {
