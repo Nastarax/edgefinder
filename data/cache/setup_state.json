@@ -34,6 +34,11 @@
   "bias": "Bullish",
   "loc": 84
  },
+ "SILVER": {
+  "setup": "mid",
+  "bias": "Bullish",
+  "loc": 52
+ },
  "EURCHF": {
   "setup": "extended",
   "bias": "Bullish",
@@ -43,11 +48,6 @@
   "setup": "extended",
   "bias": "Bullish",
   "loc": 91
- },
- "SILVER": {
-  "setup": "mid",
-  "bias": "Bullish",
-  "loc": 52
  },
  "CADCHF": {
   "setup": "extended",
