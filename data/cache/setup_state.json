@@ -39,15 +39,15 @@
   "bias": "Bullish",
   "loc": 81
  },
- "NZDCHF": {
-  "setup": "extended",
-  "bias": "Bullish",
-  "loc": 91
- },
  "SILVER": {
   "setup": "mid",
   "bias": "Bullish",
   "loc": 53
+ },
+ "NZDCHF": {
+  "setup": "extended",
+  "bias": "Bullish",
+  "loc": 80
  },
  "CADCHF": {
   "setup": "extended",
