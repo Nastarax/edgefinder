@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10T15:09:24Z",
+  "generated": "2026-08-10T22:14:32Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -55,7 +55,7 @@
       "next_basis": "estimated",
       "days_until": -42,
       "status": "due",
-      "last_checked": "2026-08-10T13:26:33Z"
+      "last_checked": "2026-08-10T22:14:32Z"
     },
     "CHF|gdp": {
       "currency": "CHF",
@@ -538,12 +538,12 @@
       "indicator": "consumer_conf",
       "label": "Consumer Conf",
       "source": "te",
-      "last_release": "2026-06-01",
-      "period_days": 31,
+      "last_release": "2026-07-01",
+      "period_days": 30,
       "period_basis": "derived",
-      "next_release": "2026-07-02",
+      "next_release": "2026-07-31",
       "next_basis": "estimated",
-      "days_until": -39,
+      "days_until": -10,
       "status": "due",
       "last_checked": null
     },
