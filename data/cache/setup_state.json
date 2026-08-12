@@ -7,7 +7,7 @@
  "GBPCHF": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 96
+  "loc": 97
  },
  "XAUUSD": {
   "setup": "extended",
@@ -17,7 +17,7 @@
  "EURUSD": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 81
+  "loc": 80
  },
  "AUDUSD": {
   "setup": "extended",
@@ -37,12 +37,12 @@
  "NZDCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 94
+  "loc": 95
  },
  "CADCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 98
+  "loc": 99
  },
  "SILVER": {
   "setup": "extended",
@@ -52,12 +52,12 @@
  "NZDUSD": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 82
+  "loc": 83
  },
  "GBPNZD": {
   "setup": "watch",
   "bias": "Bullish",
-  "loc": 31
+  "loc": 30
  },
  "NIKKEI": {
   "setup": "mid",
@@ -67,7 +67,7 @@
  "AUDNZD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 43
+  "loc": 42
  },
  "GBPAUD": {
   "setup": null,
@@ -87,27 +87,22 @@
  "GBPCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 45
+  "loc": 44
  },
  "AUDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 50
+  "loc": 48
  },
  "GBPJPY": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 56
+  "loc": 57
  },
  "EURNZD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 30
- },
- "EURCAD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 27
+  "loc": 29
  },
  "DAX": {
   "setup": null,
@@ -117,17 +112,22 @@
  "USDCHF": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 67
+  "loc": 68
  },
  "AUDJPY": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 62
+  "loc": 63
  },
  "EURAUD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 18
+  "loc": 17
+ },
+ "EURCAD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 24
  },
  "NZDCAD": {
   "setup": null,
@@ -147,22 +147,22 @@
  "NZDJPY": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 54
+  "loc": 55
  },
  "CADJPY": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 62
+  "loc": 63
  },
  "USDCAD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 12
+  "loc": 11
  },
  "EURGBP": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 35
+  "loc": 34
  },
  "CHFJPY": {
   "setup": "mid",
