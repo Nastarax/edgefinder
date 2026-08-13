@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T09:20:33Z",
+  "generated": "2026-08-13T09:37:22Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -55,7 +55,7 @@
       "next_basis": "estimated",
       "days_until": -45,
       "status": "due",
-      "last_checked": "2026-08-13T09:20:33Z"
+      "last_checked": "2026-08-13T09:37:22Z"
     },
     "CHF|gdp": {
       "currency": "CHF",
@@ -223,7 +223,7 @@
       "next_basis": "estimated",
       "days_until": -6,
       "status": "due",
-      "last_checked": "2026-08-13T09:20:33Z"
+      "last_checked": "2026-08-13T09:37:22Z"
     },
     "USD|spmi": {
       "currency": "USD",
@@ -293,7 +293,7 @@
       "next_basis": "estimated",
       "days_until": -13,
       "status": "due",
-      "last_checked": "2026-08-13T09:20:33Z"
+      "last_checked": "2026-08-13T09:37:22Z"
     },
     "AUD|spmi": {
       "currency": "AUD",
@@ -335,7 +335,7 @@
       "next_basis": "estimated",
       "days_until": -1,
       "status": "due",
-      "last_checked": "2026-08-13T09:20:33Z"
+      "last_checked": "2026-08-13T09:37:22Z"
     },
     "USD|retail_sales": {
       "currency": "USD",
@@ -727,7 +727,7 @@
       "next_basis": "estimated",
       "days_until": 29,
       "status": "upcoming",
-      "last_checked": "2026-08-13T09:20:33Z"
+      "last_checked": "2026-08-11T01:00:49Z"
     },
     "CHF|ppi": {
       "currency": "CHF",
@@ -741,7 +741,7 @@
       "next_basis": "estimated",
       "days_until": 32,
       "status": "upcoming",
-      "last_checked": "2026-08-13T09:20:33Z"
+      "last_checked": "2026-08-13T09:37:22Z"
     },
     "AUD|ppi": {
       "currency": "AUD",
