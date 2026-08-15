@@ -47,7 +47,7 @@
  "AUDCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 98
+  "loc": 99
  },
  "NZDCHF": {
   "setup": "extended",
@@ -114,11 +114,6 @@
   "bias": "Neutral",
   "loc": 39
  },
- "NASDAQ": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 83
- },
  "AUDCAD": {
   "setup": null,
   "bias": "Neutral",
@@ -153,6 +148,11 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 46
+ },
+ "NASDAQ": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 83
  },
  "EURAUD": {
   "setup": null,
