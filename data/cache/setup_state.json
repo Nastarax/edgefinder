@@ -17,7 +17,7 @@
  "AUDUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 96
+  "loc": 98
  },
  "NZDUSD": {
   "setup": "extended",
@@ -107,7 +107,7 @@
  "GBPAUD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 39
+  "loc": 51
  },
  "GBPCAD": {
   "setup": null,
@@ -117,7 +117,7 @@
  "AUDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 38
+  "loc": 34
  },
  "NZDCAD": {
   "setup": null,
