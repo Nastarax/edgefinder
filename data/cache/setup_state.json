@@ -47,7 +47,7 @@
  "AUDCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 98
+  "loc": 99
  },
  "NZDCHF": {
   "setup": "extended",
@@ -92,17 +92,12 @@
  "UK100": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 64
+  "loc": 65
  },
  "EURJPY": {
   "setup": null,
   "bias": "Neutral",
   "loc": 62
- },
- "GBPCAD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 21
  },
  "DAX": {
   "setup": null,
@@ -112,7 +107,12 @@
  "GBPAUD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 39
+  "loc": 51
+ },
+ "GBPCAD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 25
  },
  "AUDCAD": {
   "setup": null,
