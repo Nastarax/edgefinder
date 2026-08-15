@@ -99,11 +99,6 @@
   "bias": "Neutral",
   "loc": 62
  },
- "GBPCAD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 21
- },
  "DAX": {
   "setup": null,
   "bias": "Neutral",
@@ -113,6 +108,11 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 39
+ },
+ "GBPCAD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 25
  },
  "AUDCAD": {
   "setup": null,
