@@ -7,17 +7,17 @@
  "XAUUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 95
+  "loc": 87
  },
  "SILVER": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 84
+  "loc": 86
  },
  "AUDUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 95
+  "loc": 96
  },
  "NZDUSD": {
   "setup": "extended",
@@ -27,7 +27,7 @@
  "GBPCHF": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 98
+  "loc": 99
  },
  "GBPJPY": {
   "setup": "mid",
@@ -47,12 +47,12 @@
  "AUDCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 96
+  "loc": 98
  },
  "NZDCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 99
+  "loc": 100
  },
  "NZDJPY": {
   "setup": "extended",
@@ -62,7 +62,7 @@
  "CADCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 95
+  "loc": 98
  },
  "NIKKEI": {
   "setup": "extended",
@@ -99,6 +99,11 @@
   "bias": "Neutral",
   "loc": 62
  },
+ "GBPCAD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 21
+ },
  "DAX": {
   "setup": null,
   "bias": "Neutral",
@@ -107,17 +112,17 @@
  "GBPAUD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 51
+  "loc": 39
  },
- "GBPCAD": {
+ "NASDAQ": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 25
+  "loc": 83
  },
  "AUDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 34
+  "loc": 38
  },
  "NZDCAD": {
   "setup": null,
@@ -129,11 +134,6 @@
   "bias": "Neutral",
   "loc": 62
  },
- "PLATINUM": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 96
- },
  "CHFJPY": {
   "setup": null,
   "bias": "Neutral",
@@ -144,15 +144,15 @@
   "bias": "Neutral",
   "loc": 24
  },
+ "PLATINUM": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 95
+ },
  "USDJPY": {
   "setup": null,
   "bias": "Neutral",
   "loc": 46
- },
- "NASDAQ": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 83
  },
  "EURAUD": {
   "setup": null,
@@ -162,12 +162,12 @@
  "EURCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 18
+  "loc": 15
  },
  "USDCAD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 1
+  "loc": 2
  },
  "EURGBP": {
   "setup": "mid",
