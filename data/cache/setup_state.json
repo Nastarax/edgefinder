@@ -92,7 +92,7 @@
  "UK100": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 65
+  "loc": 64
  },
  "EURJPY": {
   "setup": null,
@@ -113,11 +113,6 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 39
- },
- "NASDAQ": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 83
  },
  "AUDCAD": {
   "setup": null,
@@ -153,6 +148,11 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 46
+ },
+ "NASDAQ": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 83
  },
  "EURAUD": {
   "setup": null,
