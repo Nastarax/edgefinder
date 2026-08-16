@@ -17,7 +17,7 @@
  "AUDUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 98
+  "loc": 96
  },
  "NZDUSD": {
   "setup": "extended",
@@ -47,7 +47,7 @@
  "AUDCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 99
+  "loc": 98
  },
  "NZDCHF": {
   "setup": "extended",
@@ -92,7 +92,7 @@
  "UK100": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 65
+  "loc": 64
  },
  "EURJPY": {
   "setup": null,
@@ -117,7 +117,7 @@
  "AUDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 34
+  "loc": 38
  },
  "NZDCAD": {
   "setup": null,
