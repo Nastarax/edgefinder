@@ -2,7 +2,7 @@
  "GBPUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 97
+  "loc": 93
  },
  "XAUUSD": {
   "setup": "extended",
@@ -92,7 +92,7 @@
  "UK100": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 65
+  "loc": 64
  },
  "EURJPY": {
   "setup": null,
