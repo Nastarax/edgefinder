@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16T20:47:14Z",
+  "generated": "2026-08-16T22:17:58Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -20,12 +20,12 @@
       "indicator": "gdp",
       "label": "GDP",
       "source": "te",
-      "last_release": "2026-07-30",
-      "period_days": 39,
+      "last_release": "2026-08-14",
+      "period_days": 23,
       "period_basis": "derived",
-      "next_release": "2026-09-07",
+      "next_release": "2026-09-06",
       "next_basis": "estimated",
-      "days_until": 22,
+      "days_until": 21,
       "status": "upcoming",
       "last_checked": null
     },
@@ -55,20 +55,20 @@
       "next_basis": "estimated",
       "days_until": -48,
       "status": "due",
-      "last_checked": "2026-08-13T09:37:22Z"
+      "last_checked": "2026-08-16T22:17:58Z"
     },
     "CHF|gdp": {
       "currency": "CHF",
       "indicator": "gdp",
       "label": "GDP",
       "source": "te",
-      "last_release": "2026-06-01",
-      "period_days": 14,
+      "last_release": "2026-08-14",
+      "period_days": 44,
       "period_basis": "derived",
-      "next_release": "2026-06-15",
+      "next_release": "2026-09-27",
       "next_basis": "estimated",
-      "days_until": -62,
-      "status": "due",
+      "days_until": 42,
+      "status": "upcoming",
       "last_checked": null
     },
     "AUD|gdp": {
@@ -293,7 +293,7 @@
       "next_basis": "estimated",
       "days_until": -16,
       "status": "due",
-      "last_checked": "2026-08-13T09:37:22Z"
+      "last_checked": "2026-08-16T22:17:58Z"
     },
     "AUD|spmi": {
       "currency": "AUD",
@@ -335,20 +335,20 @@
       "next_basis": "estimated",
       "days_until": -4,
       "status": "due",
-      "last_checked": "2026-08-13T09:37:22Z"
+      "last_checked": "2026-08-16T22:17:58Z"
     },
     "USD|retail_sales": {
       "currency": "USD",
       "indicator": "retail_sales",
       "label": "Retail Sales",
       "source": "te",
-      "last_release": "2026-07-16",
-      "period_days": 26,
+      "last_release": "2026-08-14",
+      "period_days": 29,
       "period_basis": "derived",
-      "next_release": "2026-08-11",
+      "next_release": "2026-09-12",
       "next_basis": "estimated",
-      "days_until": -5,
-      "status": "due",
+      "days_until": 27,
+      "status": "upcoming",
       "last_checked": null
     },
     "EUR|retail_sales": {
@@ -461,7 +461,7 @@
       "next_basis": "estimated",
       "days_until": -5,
       "status": "due",
-      "last_checked": "2026-08-11T04:00:23Z"
+      "last_checked": "2026-08-16T22:17:58Z"
     },
     "EUR|consumer_conf": {
       "currency": "EUR",
@@ -678,13 +678,13 @@
       "indicator": "ppi",
       "label": "PPI YoY",
       "source": "te",
-      "last_release": "2026-07-15",
+      "last_release": "2026-08-13",
       "period_days": 29,
       "period_basis": "derived",
-      "next_release": "2026-08-13",
+      "next_release": "2026-09-11",
       "next_basis": "estimated",
-      "days_until": -3,
-      "status": "due",
+      "days_until": 26,
+      "status": "upcoming",
       "last_checked": null
     },
     "EUR|ppi": {
@@ -919,9 +919,9 @@
       "last_release": null,
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-09-10",
+      "next_release": "2026-08-20",
       "next_basis": "exact",
-      "days_until": 25,
+      "days_until": 4,
       "status": "upcoming",
       "last_checked": null
     },
@@ -1070,13 +1070,13 @@
       "indicator": "jobless_claims",
       "label": "Unemployment Claims",
       "source": "te",
-      "last_release": "2026-08-06",
+      "last_release": "2026-08-13",
       "period_days": 7,
       "period_basis": "derived",
-      "next_release": "2026-08-13",
+      "next_release": "2026-08-20",
       "next_basis": "estimated",
-      "days_until": -3,
-      "status": "due",
+      "days_until": 4,
+      "status": "upcoming",
       "last_checked": null
     },
     "JPY|household_spending": {
