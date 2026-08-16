@@ -92,17 +92,12 @@
  "UK100": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 64
+  "loc": 65
  },
  "EURJPY": {
   "setup": null,
   "bias": "Neutral",
   "loc": 62
- },
- "GBPCAD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 20
  },
  "DAX": {
   "setup": null,
@@ -113,6 +108,11 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 50
+ },
+ "GBPCAD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 24
  },
  "AUDCAD": {
   "setup": null,
