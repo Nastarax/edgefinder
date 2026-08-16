@@ -112,12 +112,12 @@
  "GBPAUD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 51
+  "loc": 39
  },
  "AUDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 34
+  "loc": 38
  },
  "NZDCAD": {
   "setup": null,
@@ -167,7 +167,7 @@
  "USDCAD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 2
+  "loc": 1
  },
  "EURGBP": {
   "setup": "mid",
