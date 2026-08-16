@@ -4,11 +4,6 @@
   "bias": "Very Bullish",
   "loc": 93
  },
- "NZDUSD": {
-  "setup": "extended",
-  "bias": "Very Bullish",
-  "loc": 95
- },
  "XAUUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
@@ -24,20 +19,25 @@
   "bias": "Very Bullish",
   "loc": 96
  },
- "EURUSD": {
+ "NZDUSD": {
   "setup": "extended",
-  "bias": "Bullish",
-  "loc": 94
+  "bias": "Very Bullish",
+  "loc": 95
  },
  "GBPCHF": {
   "setup": "extended",
-  "bias": "Bullish",
-  "loc": 99
+  "bias": "Very Bullish",
+  "loc": 100
  },
  "GBPJPY": {
   "setup": "mid",
   "bias": "Bullish",
   "loc": 61
+ },
+ "EURUSD": {
+  "setup": "extended",
+  "bias": "Bullish",
+  "loc": 94
  },
  "AUDJPY": {
   "setup": "extended",
@@ -47,7 +47,7 @@
  "AUDCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 98
+  "loc": 99
  },
  "NZDCHF": {
   "setup": "extended",
@@ -84,6 +84,11 @@
   "bias": "Neutral",
   "loc": 67
  },
+ "GBPNZD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 20
+ },
  "UK100": {
   "setup": null,
   "bias": "Neutral",
@@ -94,25 +99,25 @@
   "bias": "Neutral",
   "loc": 62
  },
- "DAX": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 93
- },
- "GBPNZD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 20
- },
  "GBPCAD": {
   "setup": null,
   "bias": "Neutral",
   "loc": 20
  },
+ "DAX": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 93
+ },
+ "GBPAUD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 50
+ },
  "AUDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 38
+  "loc": 34
  },
  "NZDCAD": {
   "setup": null,
@@ -123,11 +128,6 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 62
- },
- "GBPAUD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 39
  },
  "PLATINUM": {
   "setup": null,
@@ -164,14 +164,14 @@
   "bias": "Neutral",
   "loc": 15
  },
- "EURGBP": {
-  "setup": "mid",
-  "bias": "Bearish",
-  "loc": 38
- },
  "USDCAD": {
   "setup": "extended",
   "bias": "Bearish",
   "loc": 2
+ },
+ "EURGBP": {
+  "setup": "mid",
+  "bias": "Bearish",
+  "loc": 38
  }
 }
