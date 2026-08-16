@@ -17,7 +17,7 @@
  "AUDUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 97
+  "loc": 95
  },
  "NZDUSD": {
   "setup": "extended",
@@ -27,17 +27,17 @@
  "GBPCHF": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 96
+  "loc": 93
  },
  "EURUSD": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 93
+  "loc": 94
  },
  "GBPJPY": {
   "setup": "mid",
   "bias": "Bullish",
-  "loc": 60
+  "loc": 61
  },
  "AUDJPY": {
   "setup": "extended",
@@ -47,12 +47,12 @@
  "AUDCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 88
+  "loc": 91
  },
  "NZDCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 92
+  "loc": 94
  },
  "NZDJPY": {
   "setup": "mid",
@@ -62,12 +62,12 @@
  "CADCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 92
+  "loc": 93
  },
  "CADJPY": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 70
+  "loc": 71
  },
  "AUDNZD": {
   "setup": null,
@@ -82,12 +82,12 @@
  "EURCHF": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 90
+  "loc": 94
  },
  "GBPNZD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 21
+  "loc": 22
  },
  "UK100": {
   "setup": null,
@@ -102,7 +102,7 @@
  "GBPCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 20
+  "loc": 19
  },
  "DAX": {
   "setup": null,
@@ -117,7 +117,7 @@
  "AUDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 42
+  "loc": 39
  },
  "NZDCAD": {
   "setup": null,
@@ -132,22 +132,22 @@
  "USDCHF": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 51
+  "loc": 56
  },
  "CHFJPY": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 41
+  "loc": 40
  },
  "EURNZD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 24
+  "loc": 25
  },
  "USDJPY": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 46
+  "loc": 47
  },
  "NASDAQ": {
   "setup": null,
@@ -162,7 +162,7 @@
  "EURCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 14
+  "loc": 15
  },
  "USDCAD": {
   "setup": "extended",
@@ -171,7 +171,7 @@
  },
  "EURGBP": {
   "setup": "mid",
-  "bias": "Very Bearish",
-  "loc": 41
+  "bias": "Bearish",
+  "loc": 36
  }
 }
