@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16T22:17:58Z",
+  "generated": "2026-08-17T00:10:33Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -566,14 +566,14 @@
       "indicator": "cpi",
       "label": "CPI YoY",
       "source": "investing",
-      "last_release": "2026-07-14",
+      "last_release": "2026-08-12",
       "period_days": 31,
       "period_basis": "derived",
-      "next_release": "2026-08-14",
+      "next_release": "2026-09-12",
       "next_basis": "estimated",
-      "days_until": -2,
-      "status": "due",
-      "last_checked": "2026-07-16T02:41:37Z"
+      "days_until": 27,
+      "status": "upcoming",
+      "last_checked": "2026-08-17T00:10:33Z"
     },
     "EUR|cpi": {
       "currency": "EUR",
