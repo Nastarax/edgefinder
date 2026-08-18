@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T15:12:08Z",
+  "generated": "2026-08-18T16:03:03Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -524,13 +524,13 @@
       "indicator": "consumer_conf",
       "label": "Consumer Conf",
       "source": "te",
-      "last_release": "2026-07-14",
+      "last_release": "2026-08-18",
       "period_days": 35,
       "period_basis": "derived",
-      "next_release": "2026-08-18",
+      "next_release": "2026-09-22",
       "next_basis": "estimated",
-      "days_until": 0,
-      "status": "due",
+      "days_until": 35,
+      "status": "upcoming",
       "last_checked": null
     },
     "CAD|consumer_conf": {
@@ -783,7 +783,7 @@
       "next_basis": "estimated",
       "days_until": -1,
       "status": "due",
-      "last_checked": "2026-08-18T00:10:40Z"
+      "last_checked": "2026-08-18T16:03:03Z"
     },
     "USD|unemployment_rate": {
       "currency": "USD",
@@ -818,12 +818,12 @@
       "indicator": "unemployment_rate",
       "label": "Unemployment Rate",
       "source": "te",
-      "last_release": "2026-07-21",
-      "period_days": 32,
+      "last_release": "2026-08-18",
+      "period_days": 30,
       "period_basis": "derived",
-      "next_release": "2026-08-22",
+      "next_release": "2026-09-17",
       "next_basis": "estimated",
-      "days_until": 4,
+      "days_until": 30,
       "status": "upcoming",
       "last_checked": null
     },
