@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T04:00:47Z",
+  "generated": "2026-08-18T00:10:40Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -48,14 +48,14 @@
       "indicator": "gdp",
       "label": "GDP",
       "source": "investing",
-      "last_release": "2026-06-07",
+      "last_release": "2026-08-16",
       "period_days": 46,
       "period_basis": "derived",
-      "next_release": "2026-07-23",
+      "next_release": "2026-10-01",
       "next_basis": "estimated",
-      "days_until": -25,
-      "status": "due",
-      "last_checked": "2026-08-16T22:17:58Z"
+      "days_until": 45,
+      "status": "upcoming",
+      "last_checked": "2026-08-18T00:10:40Z"
     },
     "CHF|gdp": {
       "currency": "CHF",
@@ -293,7 +293,7 @@
       "next_basis": "estimated",
       "days_until": -17,
       "status": "due",
-      "last_checked": "2026-08-16T22:17:58Z"
+      "last_checked": "2026-08-18T00:10:40Z"
     },
     "AUD|spmi": {
       "currency": "AUD",
@@ -328,14 +328,14 @@
       "indicator": "spmi",
       "label": "Services PMI",
       "source": "businessnz",
-      "last_release": "2026-07-13",
+      "last_release": "2026-08-17",
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-08-12",
+      "next_release": "2026-09-16",
       "next_basis": "estimated",
-      "days_until": -5,
-      "status": "due",
-      "last_checked": "2026-08-16T22:17:58Z"
+      "days_until": 30,
+      "status": "upcoming",
+      "last_checked": "2026-08-18T00:10:40Z"
     },
     "USD|retail_sales": {
       "currency": "USD",
@@ -783,7 +783,7 @@
       "next_basis": "estimated",
       "days_until": 0,
       "status": "due",
-      "last_checked": "2026-08-17T04:00:47Z"
+      "last_checked": "2026-08-18T00:10:40Z"
     },
     "USD|unemployment_rate": {
       "currency": "USD",

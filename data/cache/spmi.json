@@ -36,10 +36,10 @@
     "previous": 47.1
   },
   "NZD": {
-    "date": "2026-07-13",
-    "reference_month": "2026-06-01",
+    "date": "2026-08-17",
+    "reference_month": "2026-07-01",
     "actual": 50.6,
-    "previous": 48.0,
+    "previous": null,
     "forecast": null
   },
   "CHF": {
