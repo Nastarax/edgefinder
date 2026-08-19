@@ -7,7 +7,7 @@
  "AUDUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 83
+  "loc": 82
  },
  "SILVER": {
   "setup": "extended",
@@ -22,17 +22,17 @@
  "NZDUSD": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 82
+  "loc": 83
  },
  "AUDCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 89
+  "loc": 88
  },
  "AUDJPY": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 70
+  "loc": 69
  },
  "GBPCHF": {
   "setup": "extended",
@@ -42,7 +42,7 @@
  "NZDCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 88
+  "loc": 87
  },
  "EURUSD": {
   "setup": "extended",
@@ -59,11 +59,6 @@
   "bias": "Bullish",
   "loc": 61
  },
- "CADCHF": {
-  "setup": "extended",
-  "bias": "Bullish",
-  "loc": 93
- },
  "CADJPY": {
   "setup": null,
   "bias": "Neutral",
@@ -72,7 +67,12 @@
  "EURCHF": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 98
+  "loc": 97
+ },
+ "CADCHF": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 92
  },
  "EURJPY": {
   "setup": null,
@@ -102,17 +102,17 @@
  "UK100": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 60
+  "loc": 59
  },
  "AUDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 52
+  "loc": 51
  },
  "GBPCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 30
+  "loc": 31
  },
  "NZDCAD": {
   "setup": null,
@@ -124,20 +124,25 @@
   "bias": "Neutral",
   "loc": 88
  },
+ "USDJPY": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 49
+ },
+ "USDCHF": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 58
+ },
  "EURNZD": {
   "setup": null,
   "bias": "Neutral",
   "loc": 34
  },
- "USDJPY": {
+ "PLATINUM": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 50
- },
- "USDCHF": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 60
+  "loc": 73
  },
  "EURCAD": {
   "setup": null,
@@ -147,12 +152,7 @@
  "GBPAUD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 30
- },
- "PLATINUM": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 73
+  "loc": 32
  },
  "EURGBP": {
   "setup": "mid",
@@ -162,12 +162,12 @@
  "EURAUD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 24
+  "loc": 26
  },
  "NASDAQ": {
   "setup": "watch",
   "bias": "Bearish",
-  "loc": 67
+  "loc": 73
  },
  "USDCAD": {
   "setup": "extended",
