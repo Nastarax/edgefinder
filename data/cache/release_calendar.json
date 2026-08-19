@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19T17:12:07Z",
+  "generated": "2026-08-19T22:02:58Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -706,14 +706,14 @@
       "indicator": "ppi",
       "label": "PPI YoY",
       "source": "investing",
-      "last_release": "2026-07-22",
+      "last_release": "2026-08-19",
       "period_days": 28,
       "period_basis": "derived",
-      "next_release": "2026-08-19",
+      "next_release": "2026-09-16",
       "next_basis": "estimated",
-      "days_until": 0,
-      "status": "due",
-      "last_checked": "2026-07-22T16:07:35Z"
+      "days_until": 28,
+      "status": "upcoming",
+      "last_checked": "2026-08-19T22:02:58Z"
     },
     "JPY|ppi": {
       "currency": "JPY",
