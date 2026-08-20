@@ -24,25 +24,20 @@
   "bias": "Bullish",
   "loc": 99
  },
- "AUDJPY": {
-  "setup": "extended",
-  "bias": "Bullish",
-  "loc": 65
- },
  "EURUSD": {
   "setup": "extended",
   "bias": "Bullish",
   "loc": 97
  },
+ "AUDJPY": {
+  "setup": "mid",
+  "bias": "Bullish",
+  "loc": 64
+ },
  "AUDCHF": {
   "setup": "mid",
   "bias": "Bullish",
   "loc": 58
- },
- "CADJPY": {
-  "setup": "extended",
-  "bias": "Bullish",
-  "loc": 67
  },
  "NZDCHF": {
   "setup": "extended",
@@ -54,15 +49,10 @@
   "bias": "Bullish",
   "loc": 66
  },
- "GBPCHF": {
-  "setup": "mid",
+ "CADJPY": {
+  "setup": "extended",
   "bias": "Bullish",
-  "loc": 54
- },
- "CADCHF": {
-  "setup": "mid",
-  "bias": "Bullish",
-  "loc": 61
+  "loc": 67
  },
  "EURJPY": {
   "setup": null,
@@ -74,20 +64,25 @@
   "bias": "Neutral",
   "loc": 57
  },
+ "GBPCHF": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 54
+ },
  "AUDNZD": {
   "setup": null,
   "bias": "Neutral",
   "loc": 29
  },
+ "CADCHF": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 61
+ },
  "UK100": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 56
- },
- "EURCHF": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 58
+  "loc": 61
  },
  "NIKKEI": {
   "setup": null,
@@ -104,6 +99,16 @@
   "bias": "Neutral",
   "loc": 63
  },
+ "EURCHF": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 58
+ },
+ "AUDCAD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 47
+ },
  "NZDCAD": {
   "setup": null,
   "bias": "Neutral",
@@ -119,10 +124,10 @@
   "bias": "Neutral",
   "loc": 29
  },
- "AUDCAD": {
+ "GBPNZD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 47
+  "loc": 13
  },
  "PLATINUM": {
   "setup": null,
@@ -134,20 +139,15 @@
   "bias": "Neutral",
   "loc": 34
  },
- "GBPNZD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 12
- },
- "GBPCAD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 20
- },
  "EURCAD": {
   "setup": null,
   "bias": "Neutral",
   "loc": 44
+ },
+ "GBPCAD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 21
  },
  "GBPAUD": {
   "setup": null,
