@@ -132,7 +132,7 @@
  "NZDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 81
+  "loc": 80
  },
  "USDJPY": {
   "setup": "mid",
@@ -152,7 +152,7 @@
  "EURCAD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 27
+  "loc": 26
  },
  "GBPNZD": {
   "setup": "extended",
@@ -162,12 +162,12 @@
  "AUDCAD": {
   "setup": "mid",
   "bias": "Bearish",
-  "loc": 64
+  "loc": 63
  },
  "GBPCAD": {
   "setup": "extended",
   "bias": "Very Bearish",
-  "loc": 21
+  "loc": 20
  },
  "USDCAD": {
   "setup": "extended",
