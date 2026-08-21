@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T13:12:40Z",
+  "generated": "2026-08-21T14:07:19Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -244,12 +244,12 @@
       "indicator": "spmi",
       "label": "Services PMI",
       "source": "investing",
-      "last_release": "2026-08-05",
+      "last_release": "2026-08-21",
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-09-04",
+      "next_release": "2026-09-20",
       "next_basis": "estimated",
-      "days_until": 14,
+      "days_until": 30,
       "status": "upcoming",
       "last_checked": null
     },
@@ -258,12 +258,12 @@
       "indicator": "spmi",
       "label": "Services PMI",
       "source": "investing",
-      "last_release": "2026-08-05",
+      "last_release": "2026-08-21",
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-09-04",
+      "next_release": "2026-09-20",
       "next_basis": "estimated",
-      "days_until": 14,
+      "days_until": 30,
       "status": "upcoming",
       "last_checked": null
     },
@@ -272,12 +272,12 @@
       "indicator": "spmi",
       "label": "Services PMI",
       "source": "investing",
-      "last_release": "2026-08-05",
+      "last_release": "2026-08-21",
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-09-04",
+      "next_release": "2026-09-20",
       "next_basis": "estimated",
-      "days_until": 14,
+      "days_until": 30,
       "status": "upcoming",
       "last_checked": null
     },
@@ -293,19 +293,19 @@
       "next_basis": "estimated",
       "days_until": -21,
       "status": "due",
-      "last_checked": "2026-08-21T01:20:03Z"
+      "last_checked": "2026-08-21T14:07:19Z"
     },
     "AUD|spmi": {
       "currency": "AUD",
       "indicator": "spmi",
       "label": "Services PMI",
       "source": "investing",
-      "last_release": "2026-08-04",
+      "last_release": "2026-08-20",
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-09-03",
+      "next_release": "2026-09-19",
       "next_basis": "estimated",
-      "days_until": 13,
+      "days_until": 29,
       "status": "upcoming",
       "last_checked": null
     },
@@ -426,14 +426,14 @@
       "indicator": "retail_sales",
       "label": "Retail Sales",
       "source": "investing",
-      "last_release": "2026-07-23",
+      "last_release": "2026-08-21",
       "period_days": 28,
       "period_basis": "derived",
-      "next_release": "2026-08-20",
+      "next_release": "2026-09-18",
       "next_basis": "estimated",
-      "days_until": -1,
-      "status": "due",
-      "last_checked": "2026-08-21T01:20:03Z"
+      "days_until": 28,
+      "status": "upcoming",
+      "last_checked": "2026-08-21T14:07:19Z"
     },
     "NZD|retail_sales": {
       "currency": "NZD",
@@ -461,7 +461,7 @@
       "next_basis": "estimated",
       "days_until": -10,
       "status": "due",
-      "last_checked": "2026-08-21T01:20:03Z"
+      "last_checked": "2026-08-21T14:07:19Z"
     },
     "EUR|consumer_conf": {
       "currency": "EUR",
