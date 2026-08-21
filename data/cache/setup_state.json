@@ -99,11 +99,6 @@
   "bias": "Neutral",
   "loc": 25
  },
- "DAX": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 78
- },
  "EURAUD": {
   "setup": null,
   "bias": "Neutral",
@@ -113,6 +108,11 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 74
+ },
+ "DAX": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 71
  },
  "PLATINUM": {
   "setup": null,
