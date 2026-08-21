@@ -7,7 +7,7 @@
  "NZDUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 98
+  "loc": 96
  },
  "CADJPY": {
   "setup": "extended",
@@ -42,7 +42,7 @@
  "NZDJPY": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 91
+  "loc": 89
  },
  "EURGBP": {
   "setup": "mid",
@@ -57,17 +57,17 @@
  "EURJPY": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 77
- },
- "UK100": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 71
+  "loc": 78
  },
  "NIKKEI": {
   "setup": null,
   "bias": "Neutral",
   "loc": 47
+ },
+ "UK100": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 59
  },
  "GBPJPY": {
   "setup": null,
@@ -119,6 +119,11 @@
   "bias": "Neutral",
   "loc": 92
  },
+ "EURNZD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 13
+ },
  "GBPAUD": {
   "setup": null,
   "bias": "Neutral",
@@ -137,12 +142,7 @@
  "USDJPY": {
   "setup": "mid",
   "bias": "Bearish",
-  "loc": 41
- },
- "EURNZD": {
-  "setup": "extended",
-  "bias": "Bearish",
-  "loc": 11
+  "loc": 42
  },
  "USDCHF": {
   "setup": "extended",
