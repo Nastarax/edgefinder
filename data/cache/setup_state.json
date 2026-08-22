@@ -144,15 +144,15 @@
   "bias": "Bearish",
   "loc": 42
  },
- "USDCHF": {
-  "setup": "extended",
-  "bias": "Bearish",
-  "loc": 24
- },
  "EURCAD": {
   "setup": "extended",
   "bias": "Bearish",
   "loc": 26
+ },
+ "USDCHF": {
+  "setup": "extended",
+  "bias": "Bearish",
+  "loc": 24
  },
  "GBPNZD": {
   "setup": "extended",
