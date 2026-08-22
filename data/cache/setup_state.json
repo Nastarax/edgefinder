@@ -114,11 +114,6 @@
   "bias": "Neutral",
   "loc": 100
  },
- "EURNZD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 13
- },
  "AUDNZD": {
   "setup": null,
   "bias": "Neutral",
@@ -143,6 +138,11 @@
   "setup": "mid",
   "bias": "Bearish",
   "loc": 42
+ },
+ "EURNZD": {
+  "setup": "extended",
+  "bias": "Bearish",
+  "loc": 13
  },
  "EURCAD": {
   "setup": "extended",
