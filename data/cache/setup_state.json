@@ -94,6 +94,11 @@
   "bias": "Neutral",
   "loc": 78
  },
+ "PLATINUM": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 100
+ },
  "EURAUD": {
   "setup": null,
   "bias": "Neutral",
@@ -108,11 +113,6 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 80
- },
- "PLATINUM": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 100
  },
  "AUDNZD": {
   "setup": null,
