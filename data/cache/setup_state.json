@@ -27,7 +27,7 @@
  "XAUUSD": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 96
+  "loc": 98
  },
  "GBPUSD": {
   "setup": "extended",
@@ -117,7 +117,7 @@
  "PLATINUM": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 92
+  "loc": 100
  },
  "EURNZD": {
   "setup": null,
