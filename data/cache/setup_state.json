@@ -52,7 +52,7 @@
  "EURJPY": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 78
+  "loc": 75
  },
  "NZDCHF": {
   "setup": null,
@@ -127,7 +127,7 @@
  "GBPAUD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 7
+  "loc": 2
  },
  "NASDAQ": {
   "setup": null,
@@ -157,7 +157,7 @@
  "GBPNZD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 4
+  "loc": 2
  },
  "AUDCAD": {
   "setup": "mid",
@@ -167,7 +167,7 @@
  "GBPCAD": {
   "setup": "extended",
   "bias": "Very Bearish",
-  "loc": 20
+  "loc": 17
  },
  "USDCAD": {
   "setup": "extended",
