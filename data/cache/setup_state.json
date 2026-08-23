@@ -109,11 +109,6 @@
   "bias": "Neutral",
   "loc": 80
  },
- "NASDAQ": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 68
- },
  "PLATINUM": {
   "setup": null,
   "bias": "Neutral",
@@ -133,6 +128,11 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 7
+ },
+ "NASDAQ": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 68
  },
  "USDJPY": {
   "setup": "mid",
