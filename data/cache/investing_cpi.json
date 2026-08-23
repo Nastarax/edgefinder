@@ -18,10 +18,10 @@
     "previous": 2.8
   },
   "GBP": {
-    "date": "2026-07-22",
-    "actual": 2.6,
-    "forecast": 2.7,
-    "previous": 2.8
+    "date": "2026-08-19",
+    "actual": 2.9,
+    "forecast": 2.9,
+    "previous": 2.6
   },
   "AUD": {
     "date": "2026-07-29",
@@ -42,9 +42,9 @@
     "previous": 0.5
   },
   "JPY": {
-    "date": "2026-07-23",
-    "actual": 1.7,
+    "date": "2026-08-20",
+    "actual": 1.9,
     "forecast": null,
-    "previous": 1.5
+    "previous": 1.6
   }
 }
