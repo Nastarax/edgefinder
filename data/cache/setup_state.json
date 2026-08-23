@@ -64,11 +64,6 @@
   "bias": "Neutral",
   "loc": 71
  },
- "NIKKEI": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 46
- },
  "GBPJPY": {
   "setup": null,
   "bias": "Neutral",
@@ -108,6 +103,11 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 80
+ },
+ "NIKKEI": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 46
  },
  "PLATINUM": {
   "setup": null,
