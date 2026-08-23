@@ -2,7 +2,7 @@
  "EURUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 92
+  "loc": 91
  },
  "NZDUSD": {
   "setup": "extended",
@@ -12,7 +12,7 @@
  "SILVER": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 98
+  "loc": 96
  },
  "GBPUSD": {
   "setup": "extended",
@@ -22,12 +22,12 @@
  "CADJPY": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 77
+  "loc": 79
  },
  "XAUUSD": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 100
+  "loc": 98
  },
  "AUDUSD": {
   "setup": "extended",
@@ -47,7 +47,7 @@
  "NZDCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 94
+  "loc": 93
  },
  "NIKKEI": {
   "setup": "mid",
@@ -62,7 +62,7 @@
  "GBPJPY": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 73
+  "loc": 72
  },
  "UK100": {
   "setup": null,
@@ -77,12 +77,12 @@
  "EURGBP": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 58
+  "loc": 57
  },
  "EURAUD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 9
+  "loc": 8
  },
  "CHFJPY": {
   "setup": null,
@@ -92,7 +92,7 @@
  "EURCHF": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 76
+  "loc": 75
  },
  "DAX": {
   "setup": null,
@@ -107,12 +107,12 @@
  "NZDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 83
+  "loc": 82
  },
  "GBPAUD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 10
+  "loc": 11
  },
  "AUDCHF": {
   "setup": null,
@@ -122,12 +122,12 @@
  "PLATINUM": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 98
+  "loc": 96
  },
  "AUDNZD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 28
+  "loc": 15
  },
  "NASDAQ": {
   "setup": null,
@@ -138,6 +138,11 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 39
+ },
+ "USDJPY": {
+  "setup": "mid",
+  "bias": "Bearish",
+  "loc": 42
  },
  "EURNZD": {
   "setup": "extended",
@@ -157,21 +162,16 @@
  "AUDCAD": {
   "setup": "watch",
   "bias": "Bearish",
-  "loc": 78
- },
- "USDJPY": {
-  "setup": "mid",
-  "bias": "Bearish",
-  "loc": 42
+  "loc": 79
  },
  "GBPCAD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 33
+  "loc": 34
  },
  "USDCAD": {
   "setup": "extended",
   "bias": "Very Bearish",
-  "loc": 12
+  "loc": 11
  }
 }
