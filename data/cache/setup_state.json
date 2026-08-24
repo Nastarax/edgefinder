@@ -7,7 +7,7 @@
  "CADJPY": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 72
+  "loc": 73
  },
  "NZDUSD": {
   "setup": "extended",
@@ -17,12 +17,12 @@
  "XAUUSD": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 100
+  "loc": 99
  },
  "SILVER": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 96
+  "loc": 97
  },
  "GBPUSD": {
   "setup": "extended",
@@ -37,22 +37,22 @@
  "CADCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 69
+  "loc": 70
  },
  "NZDCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 91
+  "loc": 92
  },
  "EURJPY": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 77
+  "loc": 78
  },
  "NZDJPY": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 84
+  "loc": 86
  },
  "NIKKEI": {
   "setup": "mid",
@@ -77,7 +77,7 @@
  "AUDJPY": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 83
+  "loc": 85
  },
  "GBPCHF": {
   "setup": null,
@@ -92,17 +92,17 @@
  "CHFJPY": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 63
+  "loc": 64
  },
  "EURAUD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 20
+  "loc": 18
  },
  "AUDCHF": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 80
+  "loc": 81
  },
  "UK100": {
   "setup": null,
@@ -112,7 +112,7 @@
  "GBPAUD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 19
+  "loc": 17
  },
  "DAX": {
   "setup": null,
@@ -122,7 +122,12 @@
  "USDJPY": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 44
+  "loc": 45
+ },
+ "EURCAD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 55
  },
  "PLATINUM": {
   "setup": null,
@@ -134,20 +139,15 @@
   "bias": "Neutral",
   "loc": 18
  },
- "EURCAD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 55
- },
  "NZDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 85
+  "loc": 86
  },
  "GBPNZD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 11
+  "loc": 10
  },
  "GBPCAD": {
   "setup": null,
@@ -157,7 +157,7 @@
  "AUDCAD": {
   "setup": "watch",
   "bias": "Bearish",
-  "loc": 83
+  "loc": 85
  },
  "USDCHF": {
   "setup": "extended",
