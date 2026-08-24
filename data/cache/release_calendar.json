@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23T14:12:10Z",
+  "generated": "2026-08-24T00:07:45Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -293,7 +293,7 @@
       "next_basis": "estimated",
       "days_until": -23,
       "status": "due",
-      "last_checked": "2026-08-23T14:12:10Z"
+      "last_checked": "2026-08-24T00:07:45Z"
     },
     "AUD|spmi": {
       "currency": "AUD",
@@ -468,13 +468,13 @@
       "indicator": "consumer_conf",
       "label": "Consumer Conf",
       "source": "te",
-      "last_release": "2026-07-30",
-      "period_days": 7,
+      "last_release": "2026-08-21",
+      "period_days": 14,
       "period_basis": "derived",
-      "next_release": "2026-08-06",
+      "next_release": "2026-09-04",
       "next_basis": "estimated",
-      "days_until": -17,
-      "status": "due",
+      "days_until": 12,
+      "status": "upcoming",
       "last_checked": null
     },
     "GBP|consumer_conf": {
