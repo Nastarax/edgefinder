@@ -17,7 +17,7 @@
  "NZDUSD": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 90
+  "loc": 91
  },
  "XAUUSD": {
   "setup": "extended",
@@ -27,7 +27,7 @@
  "SILVER": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 85
+  "loc": 86
  },
  "GBPUSD": {
   "setup": "extended",
@@ -37,17 +37,17 @@
  "CADCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 67
- },
- "NZDCHF": {
-  "setup": "extended",
-  "bias": "Bullish",
-  "loc": 90
+  "loc": 68
  },
  "EURJPY": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 78
+  "loc": 81
+ },
+ "NZDCHF": {
+  "setup": "extended",
+  "bias": "Bullish",
+  "loc": 91
  },
  "NZDJPY": {
   "setup": "extended",
@@ -67,7 +67,7 @@
  "AUDJPY": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 87
+  "loc": 86
  },
  "EURGBP": {
   "setup": null,
@@ -82,7 +82,7 @@
  "AUDNZD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 32
+  "loc": 31
  },
  "GBPCHF": {
   "setup": null,
@@ -92,7 +92,7 @@
  "AUDCHF": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 82
+  "loc": 81
  },
  "UK100": {
   "setup": null,
@@ -102,7 +102,7 @@
  "DAX": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 81
+  "loc": 83
  },
  "CHFJPY": {
   "setup": null,
@@ -117,17 +117,12 @@
  "EURCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 64
+  "loc": 62
  },
  "GBPAUD": {
   "setup": null,
   "bias": "Neutral",
   "loc": 22
- },
- "NZDCAD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 84
  },
  "PLATINUM": {
   "setup": null,
@@ -142,27 +137,32 @@
  "EURNZD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 22
+  "loc": 21
  },
  "GBPNZD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 16
+  "loc": 15
+ },
+ "NZDCAD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 86
+ },
+ "GBPCAD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 58
  },
  "AUDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 90
+  "loc": 89
  },
  "USDCHF": {
   "setup": "extended",
   "bias": "Bearish",
   "loc": 31
- },
- "GBPCAD": {
-  "setup": "mid",
-  "bias": "Bearish",
-  "loc": 36
  },
  "NASDAQ": {
   "setup": "mid",
