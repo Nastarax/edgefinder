@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25T14:07:47Z",
+  "generated": "2026-08-25T15:03:30Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -454,14 +454,14 @@
       "indicator": "consumer_conf",
       "label": "Consumer Conf",
       "source": "investing",
-      "last_release": "2026-07-28",
+      "last_release": "2026-08-25",
       "period_days": 14,
       "period_basis": "derived",
-      "next_release": "2026-08-11",
+      "next_release": "2026-09-08",
       "next_basis": "estimated",
-      "days_until": -14,
-      "status": "due",
-      "last_checked": "2026-08-25T02:00:19Z"
+      "days_until": 14,
+      "status": "upcoming",
+      "last_checked": "2026-08-25T15:03:30Z"
     },
     "EUR|consumer_conf": {
       "currency": "EUR",
