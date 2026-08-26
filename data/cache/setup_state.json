@@ -2,7 +2,7 @@
  "EURUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 87
+  "loc": 90
  },
  "AUDUSD": {
   "setup": "extended",
@@ -12,32 +12,32 @@
  "CADJPY": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 70
+  "loc": 69
  },
  "NZDUSD": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 87
+  "loc": 88
  },
  "XAUUSD": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 94
+  "loc": 95
  },
  "SILVER": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 92
+  "loc": 93
  },
  "GBPUSD": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 88
+  "loc": 90
  },
  "AUDNZD": {
   "setup": "mid",
   "bias": "Bullish",
-  "loc": 52
+  "loc": 51
  },
  "CADCHF": {
   "setup": "extended",
@@ -82,17 +82,17 @@
  "EURGBP": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 76
+  "loc": 58
  },
  "EURCHF": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 84
+  "loc": 86
  },
  "GBPCHF": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 81
+  "loc": 76
  },
  "UK100": {
   "setup": null,
@@ -102,7 +102,7 @@
  "DAX": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 84
+  "loc": 83
  },
  "CHFJPY": {
   "setup": null,
@@ -122,7 +122,7 @@
  "EURCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 62
+  "loc": 66
  },
  "GBPNZD": {
   "setup": null,
@@ -132,37 +132,37 @@
  "PLATINUM": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 94
+  "loc": 96
  },
  "USDJPY": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 44
+  "loc": 43
  },
  "EURAUD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 6
+  "loc": 10
  },
  "GBPCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 55
+  "loc": 57
  },
  "NZDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 81
+  "loc": 82
  },
  "GBPAUD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 5
+  "loc": 7
  },
  "USDCHF": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 35
+  "loc": 33
  },
  "NASDAQ": {
   "setup": "mid",
@@ -172,6 +172,6 @@
  "USDCAD": {
   "setup": "extended",
   "bias": "Very Bearish",
-  "loc": 26
+  "loc": 25
  }
 }
