@@ -2,12 +2,12 @@
  "EURUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 87
+  "loc": 88
  },
  "AUDUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 98
+  "loc": 99
  },
  "CADJPY": {
   "setup": "extended",
@@ -34,6 +34,11 @@
   "bias": "Bullish",
   "loc": 90
  },
+ "AUDNZD": {
+  "setup": "mid",
+  "bias": "Bullish",
+  "loc": 50
+ },
  "CADCHF": {
   "setup": "extended",
   "bias": "Bullish",
@@ -42,12 +47,12 @@
  "AUDCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 94
+  "loc": 95
  },
  "NZDCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 93
+  "loc": 92
  },
  "EURJPY": {
   "setup": "extended",
@@ -57,7 +62,7 @@
  "AUDJPY": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 91
+  "loc": 92
  },
  "NZDJPY": {
   "setup": "extended",
@@ -68,11 +73,6 @@
   "setup": "mid",
   "bias": "Bullish",
   "loc": 51
- },
- "AUDNZD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 48
  },
  "GBPJPY": {
   "setup": null,
@@ -92,7 +92,7 @@
  "GBPCHF": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 76
+  "loc": 81
  },
  "UK100": {
   "setup": null,
@@ -112,7 +112,7 @@
  "AUDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 97
+  "loc": 99
  },
  "EURCAD": {
   "setup": null,
@@ -122,12 +122,12 @@
  "NZDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 87
+  "loc": 86
  },
  "PLATINUM": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 95
+  "loc": 96
  },
  "USDJPY": {
   "setup": null,
@@ -137,32 +137,32 @@
  "EURAUD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 4
+  "loc": 3
  },
  "EURNZD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 21
+  "loc": 22
  },
  "GBPNZD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 13
+  "loc": 14
  },
  "GBPCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 50
+  "loc": 57
  },
  "GBPAUD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 3
+  "loc": 1
  },
  "USDCHF": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 34
+  "loc": 33
  },
  "NASDAQ": {
   "setup": "mid",
