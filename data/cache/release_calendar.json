@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27T15:07:40Z",
+  "generated": "2026-08-27T16:00:19Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -905,10 +905,10 @@
       "last_release": null,
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-08-27",
+      "next_release": "2026-08-28",
       "next_basis": "exact",
-      "days_until": 0,
-      "status": "due",
+      "days_until": 1,
+      "status": "upcoming",
       "last_checked": null
     },
     "EUR|rates": {
@@ -919,10 +919,10 @@
       "last_release": null,
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-08-27",
+      "next_release": "2026-09-10",
       "next_basis": "exact",
-      "days_until": 0,
-      "status": "due",
+      "days_until": 14,
+      "status": "upcoming",
       "last_checked": null
     },
     "GBP|rates": {
@@ -975,10 +975,10 @@
       "last_release": null,
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-08-27",
+      "next_release": "2026-09-29",
       "next_basis": "exact",
-      "days_until": 0,
-      "status": "due",
+      "days_until": 33,
+      "status": "upcoming",
       "last_checked": null
     },
     "CAD|rates": {
@@ -1014,14 +1014,14 @@
       "indicator": "pce",
       "label": "PCE YoY",
       "source": "investing",
-      "last_release": "2026-07-30",
+      "last_release": "2026-08-26",
       "period_days": 28,
       "period_basis": "derived",
-      "next_release": "2026-08-27",
+      "next_release": "2026-09-23",
       "next_basis": "estimated",
-      "days_until": 0,
-      "status": "due",
-      "last_checked": "2026-08-04T02:00:41Z"
+      "days_until": 27,
+      "status": "upcoming",
+      "last_checked": "2026-08-27T16:00:19Z"
     },
     "USD|nfp": {
       "currency": "USD",
