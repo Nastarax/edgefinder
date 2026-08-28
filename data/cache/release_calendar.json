@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T00:08:50Z",
+  "generated": "2026-08-28T01:08:49Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -1070,13 +1070,13 @@
       "indicator": "jobless_claims",
       "label": "Unemployment Claims",
       "source": "te",
-      "last_release": "2026-08-20",
+      "last_release": "2026-08-27",
       "period_days": 7,
       "period_basis": "derived",
-      "next_release": "2026-08-27",
+      "next_release": "2026-09-03",
       "next_basis": "estimated",
-      "days_until": 0,
-      "status": "due",
+      "days_until": 7,
+      "status": "upcoming",
       "last_checked": null
     },
     "JPY|household_spending": {
