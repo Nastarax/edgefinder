@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-30",
-  "actual": 1.9,
+  "date": "2026-08-27",
+  "actual": 1.8,
   "forecast": 1.8,
   "consensus": 1.8,
-  "previous": 1.6,
-  "ref_month": "Jul",
+  "previous": 1.7,
+  "ref_month": "Aug",
   "history": [
     {
       "date": "2018-05-01",
@@ -401,6 +401,10 @@
     {
       "date": "2026-07-01",
       "value": 1.9
+    },
+    {
+      "date": "2026-08-01",
+      "value": 1.8
     }
   ]
 }
