@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T21:08:51Z",
+  "generated": "2026-08-28T22:08:52Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -90,13 +90,13 @@
       "indicator": "gdp",
       "label": "GDP",
       "source": "te",
-      "last_release": "2026-05-29",
+      "last_release": "2026-08-28",
       "period_days": 91,
       "period_basis": "derived",
-      "next_release": "2026-08-28",
+      "next_release": "2026-11-27",
       "next_basis": "estimated",
-      "days_until": 0,
-      "status": "due",
+      "days_until": 91,
+      "status": "upcoming",
       "last_checked": null
     },
     "NZD|gdp": {
@@ -468,8 +468,8 @@
       "indicator": "consumer_conf",
       "label": "Consumer Conf",
       "source": "te",
-      "last_release": "2026-08-21",
-      "period_days": 14,
+      "last_release": "2026-08-28",
+      "period_days": 7,
       "period_basis": "derived",
       "next_release": "2026-09-04",
       "next_basis": "estimated",
@@ -1028,12 +1028,12 @@
       "indicator": "nfp",
       "label": "NFP",
       "source": "te",
-      "last_release": "2026-08-07",
-      "period_days": 32,
+      "last_release": "2026-08-28",
+      "period_days": 28,
       "period_basis": "derived",
-      "next_release": "2026-09-08",
+      "next_release": "2026-09-25",
       "next_basis": "estimated",
-      "days_until": 11,
+      "days_until": 28,
       "status": "upcoming",
       "last_checked": null
     },
