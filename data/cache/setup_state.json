@@ -2,7 +2,7 @@
  "XAUUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 75
+  "loc": 91
  },
  "AUDUSD": {
   "setup": "extended",
@@ -27,7 +27,7 @@
  "SILVER": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 71
+  "loc": 97
  },
  "EURUSD": {
   "setup": "extended",
@@ -77,7 +77,7 @@
  "PLATINUM": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 77
+  "loc": 86
  },
  "EURJPY": {
   "setup": null,
@@ -87,7 +87,7 @@
  "NASDAQ": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 75
+  "loc": 82
  },
  "EURGBP": {
   "setup": null,
