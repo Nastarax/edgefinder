@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T01:05:37Z",
+  "generated": "2026-08-29T10:08:52Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -11,7 +11,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-23",
       "next_basis": "estimated",
-      "days_until": 26,
+      "days_until": 25,
       "status": "upcoming",
       "last_checked": null
     },
@@ -25,7 +25,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-06",
       "next_basis": "estimated",
-      "days_until": 9,
+      "days_until": 8,
       "status": "upcoming",
       "last_checked": null
     },
@@ -39,7 +39,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-28",
       "next_basis": "estimated",
-      "days_until": 31,
+      "days_until": 30,
       "status": "upcoming",
       "last_checked": null
     },
@@ -53,7 +53,7 @@
       "period_basis": "derived",
       "next_release": "2026-10-01",
       "next_basis": "estimated",
-      "days_until": 34,
+      "days_until": 33,
       "status": "upcoming",
       "last_checked": "2026-08-18T00:10:40Z"
     },
@@ -67,7 +67,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-27",
       "next_basis": "estimated",
-      "days_until": 30,
+      "days_until": 29,
       "status": "upcoming",
       "last_checked": null
     },
@@ -81,7 +81,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-02",
       "next_basis": "estimated",
-      "days_until": 5,
+      "days_until": 4,
       "status": "upcoming",
       "last_checked": null
     },
@@ -95,7 +95,7 @@
       "period_basis": "derived",
       "next_release": "2026-11-27",
       "next_basis": "estimated",
-      "days_until": 91,
+      "days_until": 90,
       "status": "upcoming",
       "last_checked": null
     },
@@ -109,7 +109,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-16",
       "next_basis": "estimated",
-      "days_until": 19,
+      "days_until": 18,
       "status": "upcoming",
       "last_checked": null
     },
@@ -123,7 +123,7 @@
       "period_basis": "default",
       "next_release": "2026-09-02",
       "next_basis": "estimated",
-      "days_until": 5,
+      "days_until": 4,
       "status": "upcoming",
       "last_checked": "2026-07-01T15:20:03Z"
     },
@@ -137,7 +137,7 @@
       "period_basis": "default",
       "next_release": "2026-09-02",
       "next_basis": "estimated",
-      "days_until": 5,
+      "days_until": 4,
       "status": "upcoming",
       "last_checked": "2026-08-04T02:00:41Z"
     },
@@ -151,7 +151,7 @@
       "period_basis": "default",
       "next_release": "2026-09-02",
       "next_basis": "estimated",
-      "days_until": 5,
+      "days_until": 4,
       "status": "upcoming",
       "last_checked": null
     },
@@ -165,7 +165,7 @@
       "period_basis": "default",
       "next_release": "2026-09-02",
       "next_basis": "estimated",
-      "days_until": 5,
+      "days_until": 4,
       "status": "upcoming",
       "last_checked": "2026-08-04T02:00:41Z"
     },
@@ -179,7 +179,7 @@
       "period_basis": "default",
       "next_release": "2026-09-02",
       "next_basis": "estimated",
-      "days_until": 5,
+      "days_until": 4,
       "status": "upcoming",
       "last_checked": "2026-07-01T15:20:03Z"
     },
@@ -193,7 +193,7 @@
       "period_basis": "default",
       "next_release": "2026-09-01",
       "next_basis": "estimated",
-      "days_until": 4,
+      "days_until": 3,
       "status": "upcoming",
       "last_checked": null
     },
@@ -207,7 +207,7 @@
       "period_basis": "default",
       "next_release": "2026-09-03",
       "next_basis": "estimated",
-      "days_until": 6,
+      "days_until": 5,
       "status": "upcoming",
       "last_checked": "2026-08-07T18:22:13Z"
     },
@@ -221,7 +221,7 @@
       "period_basis": "default",
       "next_release": "2026-09-12",
       "next_basis": "estimated",
-      "days_until": 15,
+      "days_until": 14,
       "status": "upcoming",
       "last_checked": "2026-08-16T20:47:14Z"
     },
@@ -235,7 +235,7 @@
       "period_basis": "default",
       "next_release": "2026-09-04",
       "next_basis": "estimated",
-      "days_until": 7,
+      "days_until": 6,
       "status": "upcoming",
       "last_checked": null
     },
@@ -249,7 +249,7 @@
       "period_basis": "default",
       "next_release": "2026-09-20",
       "next_basis": "estimated",
-      "days_until": 23,
+      "days_until": 22,
       "status": "upcoming",
       "last_checked": null
     },
@@ -263,7 +263,7 @@
       "period_basis": "default",
       "next_release": "2026-09-20",
       "next_basis": "estimated",
-      "days_until": 23,
+      "days_until": 22,
       "status": "upcoming",
       "last_checked": null
     },
@@ -277,7 +277,7 @@
       "period_basis": "default",
       "next_release": "2026-09-20",
       "next_basis": "estimated",
-      "days_until": 23,
+      "days_until": 22,
       "status": "upcoming",
       "last_checked": null
     },
@@ -291,7 +291,7 @@
       "period_basis": "default",
       "next_release": "2026-07-31",
       "next_basis": "estimated",
-      "days_until": -28,
+      "days_until": -29,
       "status": "due",
       "last_checked": "2026-08-29T01:05:37Z"
     },
@@ -305,7 +305,7 @@
       "period_basis": "default",
       "next_release": "2026-09-19",
       "next_basis": "estimated",
-      "days_until": 22,
+      "days_until": 21,
       "status": "upcoming",
       "last_checked": null
     },
@@ -319,7 +319,7 @@
       "period_basis": "default",
       "next_release": "2026-09-05",
       "next_basis": "estimated",
-      "days_until": 8,
+      "days_until": 7,
       "status": "upcoming",
       "last_checked": "2026-08-07T22:08:20Z"
     },
@@ -333,7 +333,7 @@
       "period_basis": "default",
       "next_release": "2026-09-16",
       "next_basis": "estimated",
-      "days_until": 19,
+      "days_until": 18,
       "status": "upcoming",
       "last_checked": "2026-08-18T00:10:40Z"
     },
@@ -347,7 +347,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-12",
       "next_basis": "estimated",
-      "days_until": 15,
+      "days_until": 14,
       "status": "upcoming",
       "last_checked": null
     },
@@ -361,7 +361,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-05",
       "next_basis": "estimated",
-      "days_until": 8,
+      "days_until": 7,
       "status": "upcoming",
       "last_checked": null
     },
@@ -375,7 +375,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-18",
       "next_basis": "estimated",
-      "days_until": 21,
+      "days_until": 20,
       "status": "upcoming",
       "last_checked": null
     },
@@ -389,8 +389,8 @@
       "period_basis": "derived",
       "next_release": "2026-08-29",
       "next_basis": "estimated",
-      "days_until": 1,
-      "status": "upcoming",
+      "days_until": 0,
+      "status": "due",
       "last_checked": null
     },
     "CHF|retail_sales": {
@@ -403,7 +403,7 @@
       "period_basis": "derived",
       "next_release": "2026-08-30",
       "next_basis": "estimated",
-      "days_until": 2,
+      "days_until": 1,
       "status": "upcoming",
       "last_checked": null
     },
@@ -431,7 +431,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-18",
       "next_basis": "estimated",
-      "days_until": 21,
+      "days_until": 20,
       "status": "upcoming",
       "last_checked": "2026-08-21T14:07:19Z"
     },
@@ -445,7 +445,7 @@
       "period_basis": "derived",
       "next_release": "2026-11-19",
       "next_basis": "estimated",
-      "days_until": 83,
+      "days_until": 82,
       "status": "upcoming",
       "last_checked": null
     },
@@ -459,7 +459,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-08",
       "next_basis": "estimated",
-      "days_until": 11,
+      "days_until": 10,
       "status": "upcoming",
       "last_checked": "2026-08-25T15:03:30Z"
     },
@@ -473,7 +473,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-04",
       "next_basis": "estimated",
-      "days_until": 7,
+      "days_until": 6,
       "status": "upcoming",
       "last_checked": null
     },
@@ -487,7 +487,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-17",
       "next_basis": "estimated",
-      "days_until": 20,
+      "days_until": 19,
       "status": "upcoming",
       "last_checked": null
     },
@@ -501,7 +501,7 @@
       "period_basis": "derived",
       "next_release": "2026-08-28",
       "next_basis": "estimated",
-      "days_until": 0,
+      "days_until": -1,
       "status": "due",
       "last_checked": null
     },
@@ -515,7 +515,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-04",
       "next_basis": "estimated",
-      "days_until": 7,
+      "days_until": 6,
       "status": "upcoming",
       "last_checked": null
     },
@@ -529,7 +529,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-22",
       "next_basis": "estimated",
-      "days_until": 25,
+      "days_until": 24,
       "status": "upcoming",
       "last_checked": null
     },
@@ -543,7 +543,7 @@
       "period_basis": "derived",
       "next_release": "2026-07-31",
       "next_basis": "estimated",
-      "days_until": -28,
+      "days_until": -29,
       "status": "due",
       "last_checked": null
     },
@@ -557,7 +557,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-15",
       "next_basis": "estimated",
-      "days_until": 18,
+      "days_until": 17,
       "status": "upcoming",
       "last_checked": null
     },
@@ -571,7 +571,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-12",
       "next_basis": "estimated",
-      "days_until": 15,
+      "days_until": 14,
       "status": "upcoming",
       "last_checked": "2026-08-17T00:10:33Z"
     },
@@ -585,7 +585,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-19",
       "next_basis": "estimated",
-      "days_until": 22,
+      "days_until": 21,
       "status": "upcoming",
       "last_checked": null
     },
@@ -599,7 +599,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-19",
       "next_basis": "estimated",
-      "days_until": 22,
+      "days_until": 21,
       "status": "upcoming",
       "last_checked": "2026-08-23T14:12:10Z"
     },
@@ -613,7 +613,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-20",
       "next_basis": "estimated",
-      "days_until": 23,
+      "days_until": 22,
       "status": "upcoming",
       "last_checked": "2026-08-23T14:12:10Z"
     },
@@ -627,7 +627,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-03",
       "next_basis": "estimated",
-      "days_until": 6,
+      "days_until": 5,
       "status": "upcoming",
       "last_checked": "2026-07-10T01:23:52Z"
     },
@@ -641,7 +641,7 @@
       "period_basis": "derived",
       "next_release": "2026-10-28",
       "next_basis": "estimated",
-      "days_until": 61,
+      "days_until": 60,
       "status": "upcoming",
       "last_checked": "2026-07-29T14:24:37Z"
     },
@@ -655,7 +655,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-17",
       "next_basis": "estimated",
-      "days_until": 20,
+      "days_until": 19,
       "status": "upcoming",
       "last_checked": "2026-08-21T03:10:41Z"
     },
@@ -669,7 +669,7 @@
       "period_basis": "derived",
       "next_release": "2026-10-20",
       "next_basis": "estimated",
-      "days_until": 53,
+      "days_until": 52,
       "status": "upcoming",
       "last_checked": "2026-07-21T12:31:39Z"
     },
@@ -683,7 +683,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-11",
       "next_basis": "estimated",
-      "days_until": 14,
+      "days_until": 13,
       "status": "upcoming",
       "last_checked": null
     },
@@ -697,7 +697,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-03",
       "next_basis": "estimated",
-      "days_until": 6,
+      "days_until": 5,
       "status": "upcoming",
       "last_checked": null
     },
@@ -711,7 +711,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-16",
       "next_basis": "estimated",
-      "days_until": 19,
+      "days_until": 18,
       "status": "upcoming",
       "last_checked": "2026-08-19T22:02:58Z"
     },
@@ -725,7 +725,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-11",
       "next_basis": "estimated",
-      "days_until": 14,
+      "days_until": 13,
       "status": "upcoming",
       "last_checked": "2026-08-11T01:00:49Z"
     },
@@ -739,7 +739,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-14",
       "next_basis": "estimated",
-      "days_until": 17,
+      "days_until": 16,
       "status": "upcoming",
       "last_checked": "2026-08-13T09:37:22Z"
     },
@@ -767,7 +767,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-18",
       "next_basis": "estimated",
-      "days_until": 21,
+      "days_until": 20,
       "status": "upcoming",
       "last_checked": null
     },
@@ -781,7 +781,7 @@
       "period_basis": "default",
       "next_release": "2026-11-17",
       "next_basis": "estimated",
-      "days_until": 81,
+      "days_until": 80,
       "status": "upcoming",
       "last_checked": "2026-08-19T01:00:50Z"
     },
@@ -795,7 +795,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-08",
       "next_basis": "estimated",
-      "days_until": 11,
+      "days_until": 10,
       "status": "upcoming",
       "last_checked": null
     },
@@ -809,8 +809,8 @@
       "period_basis": "derived",
       "next_release": "2026-08-29",
       "next_basis": "estimated",
-      "days_until": 1,
-      "status": "upcoming",
+      "days_until": 0,
+      "status": "due",
       "last_checked": null
     },
     "GBP|unemployment_rate": {
@@ -823,7 +823,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-17",
       "next_basis": "estimated",
-      "days_until": 20,
+      "days_until": 19,
       "status": "upcoming",
       "last_checked": null
     },
@@ -837,7 +837,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-27",
       "next_basis": "estimated",
-      "days_until": 30,
+      "days_until": 29,
       "status": "upcoming",
       "last_checked": null
     },
@@ -851,7 +851,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-05",
       "next_basis": "estimated",
-      "days_until": 8,
+      "days_until": 7,
       "status": "upcoming",
       "last_checked": null
     },
@@ -865,7 +865,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-17",
       "next_basis": "estimated",
-      "days_until": 20,
+      "days_until": 19,
       "status": "upcoming",
       "last_checked": null
     },
@@ -879,7 +879,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-04",
       "next_basis": "estimated",
-      "days_until": 7,
+      "days_until": 6,
       "status": "upcoming",
       "last_checked": null
     },
@@ -893,7 +893,7 @@
       "period_basis": "derived",
       "next_release": "2026-11-03",
       "next_basis": "estimated",
-      "days_until": 67,
+      "days_until": 66,
       "status": "upcoming",
       "last_checked": null
     },
@@ -907,8 +907,8 @@
       "period_basis": "default",
       "next_release": "2026-08-29",
       "next_basis": "exact",
-      "days_until": 1,
-      "status": "upcoming",
+      "days_until": 0,
+      "status": "due",
       "last_checked": null
     },
     "EUR|rates": {
@@ -921,7 +921,7 @@
       "period_basis": "default",
       "next_release": "2026-09-10",
       "next_basis": "exact",
-      "days_until": 13,
+      "days_until": 12,
       "status": "upcoming",
       "last_checked": null
     },
@@ -935,7 +935,7 @@
       "period_basis": "default",
       "next_release": "2026-09-17",
       "next_basis": "exact",
-      "days_until": 20,
+      "days_until": 19,
       "status": "upcoming",
       "last_checked": null
     },
@@ -949,7 +949,7 @@
       "period_basis": "default",
       "next_release": "2026-09-18",
       "next_basis": "exact",
-      "days_until": 21,
+      "days_until": 20,
       "status": "upcoming",
       "last_checked": null
     },
@@ -963,7 +963,7 @@
       "period_basis": "default",
       "next_release": "2026-09-24",
       "next_basis": "exact",
-      "days_until": 27,
+      "days_until": 26,
       "status": "upcoming",
       "last_checked": null
     },
@@ -977,7 +977,7 @@
       "period_basis": "default",
       "next_release": "2026-09-29",
       "next_basis": "exact",
-      "days_until": 32,
+      "days_until": 31,
       "status": "upcoming",
       "last_checked": null
     },
@@ -991,7 +991,7 @@
       "period_basis": "default",
       "next_release": "2026-09-02",
       "next_basis": "exact",
-      "days_until": 5,
+      "days_until": 4,
       "status": "upcoming",
       "last_checked": null
     },
@@ -1005,7 +1005,7 @@
       "period_basis": "default",
       "next_release": "2026-09-02",
       "next_basis": "exact",
-      "days_until": 5,
+      "days_until": 4,
       "status": "upcoming",
       "last_checked": null
     },
@@ -1019,7 +1019,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-23",
       "next_basis": "estimated",
-      "days_until": 26,
+      "days_until": 25,
       "status": "upcoming",
       "last_checked": "2026-08-27T16:00:19Z"
     },
@@ -1033,7 +1033,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-25",
       "next_basis": "estimated",
-      "days_until": 28,
+      "days_until": 27,
       "status": "upcoming",
       "last_checked": null
     },
@@ -1047,7 +1047,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-06",
       "next_basis": "estimated",
-      "days_until": 9,
+      "days_until": 8,
       "status": "upcoming",
       "last_checked": null
     },
@@ -1061,7 +1061,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-05",
       "next_basis": "estimated",
-      "days_until": 8,
+      "days_until": 7,
       "status": "upcoming",
       "last_checked": null
     },
@@ -1075,7 +1075,7 @@
       "period_basis": "derived",
       "next_release": "2026-09-03",
       "next_basis": "estimated",
-      "days_until": 6,
+      "days_until": 5,
       "status": "upcoming",
       "last_checked": null
     },
@@ -1089,7 +1089,7 @@
       "period_basis": "default",
       "next_release": "2026-09-05",
       "next_basis": "estimated",
-      "days_until": 8,
+      "days_until": 7,
       "status": "upcoming",
       "last_checked": "2026-08-07T22:08:20Z"
     }
