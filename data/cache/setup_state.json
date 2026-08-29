@@ -2,7 +2,7 @@
  "XAUUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 91
+  "loc": 73
  },
  "AUDUSD": {
   "setup": "extended",
@@ -27,12 +27,12 @@
  "NIKKEI": {
   "setup": "mid",
   "bias": "Bullish",
-  "loc": 49
+  "loc": 60
  },
  "SILVER": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 97
+  "loc": 74
  },
  "AUDNZD": {
   "setup": "extended",
@@ -72,7 +72,7 @@
  "PLATINUM": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 86
+  "loc": 87
  },
  "EURJPY": {
   "setup": null,
@@ -82,7 +82,12 @@
  "NASDAQ": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 82
+  "loc": 75
+ },
+ "UK100": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 72
  },
  "EURGBP": {
   "setup": null,
@@ -92,7 +97,7 @@
  "DAX": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 89
+  "loc": 98
  },
  "GBPJPY": {
   "setup": null,
@@ -108,11 +113,6 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 72
- },
- "UK100": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 67
  },
  "USDJPY": {
   "setup": null,
