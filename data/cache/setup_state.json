@@ -2,7 +2,7 @@
  "XAUUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 91
+  "loc": 73
  },
  "AUDUSD": {
   "setup": "extended",
@@ -32,7 +32,7 @@
  "SILVER": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 97
+  "loc": 74
  },
  "AUDNZD": {
   "setup": "extended",
@@ -52,7 +52,7 @@
  "GBPUSD": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 66
+  "loc": 65
  },
  "AUDJPY": {
   "setup": "extended",
@@ -72,7 +72,7 @@
  "PLATINUM": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 86
+  "loc": 87
  },
  "EURJPY": {
   "setup": null,
