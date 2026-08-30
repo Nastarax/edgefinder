@@ -7,7 +7,7 @@
  "AUDUSD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 86
+  "loc": 85
  },
  "CADCHF": {
   "setup": "extended",
@@ -37,7 +37,7 @@
  "AUDNZD": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 65
+  "loc": 66
  },
  "AUDCHF": {
   "setup": "extended",
@@ -127,7 +127,7 @@
  "AUDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 87
+  "loc": 86
  },
  "USDCHF": {
   "setup": null,
@@ -137,7 +137,7 @@
  "NZDCAD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 71
+  "loc": 70
  },
  "EURAUD": {
   "setup": null,
@@ -162,12 +162,12 @@
  "GBPAUD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 8
+  "loc": 9
  },
  "GBPCAD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 33
+  "loc": 32
  },
  "USDCAD": {
   "setup": "extended",
