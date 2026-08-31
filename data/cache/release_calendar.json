@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-31T14:05:31Z",
+  "generated": "2026-08-31T23:05:35Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -293,7 +293,7 @@
       "next_basis": "estimated",
       "days_until": -31,
       "status": "due",
-      "last_checked": "2026-08-31T14:05:31Z"
+      "last_checked": "2026-08-31T23:05:35Z"
     },
     "AUD|spmi": {
       "currency": "AUD",
@@ -384,13 +384,13 @@
       "indicator": "retail_sales",
       "label": "Retail Sales",
       "source": "te",
-      "last_release": "2026-07-30",
-      "period_days": 30,
+      "last_release": "2026-08-30",
+      "period_days": 31,
       "period_basis": "derived",
-      "next_release": "2026-08-29",
+      "next_release": "2026-09-30",
       "next_basis": "estimated",
-      "days_until": -2,
-      "status": "due",
+      "days_until": 30,
+      "status": "upcoming",
       "last_checked": null
     },
     "CHF|retail_sales": {
