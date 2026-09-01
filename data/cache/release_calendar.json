@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01T14:16:32Z",
+  "generated": "2026-09-01T23:03:47Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -293,7 +293,7 @@
       "next_basis": "estimated",
       "days_until": -32,
       "status": "due",
-      "last_checked": "2026-09-01T14:16:32Z"
+      "last_checked": "2026-09-01T23:03:47Z"
     },
     "AUD|spmi": {
       "currency": "AUD",
@@ -398,13 +398,13 @@
       "indicator": "retail_sales",
       "label": "Retail Sales",
       "source": "te",
-      "last_release": "2026-07-31",
+      "last_release": "2026-09-01",
       "period_days": 30,
       "period_basis": "derived",
-      "next_release": "2026-08-30",
+      "next_release": "2026-10-01",
       "next_basis": "estimated",
-      "days_until": -2,
-      "status": "due",
+      "days_until": 30,
+      "status": "upcoming",
       "last_checked": null
     },
     "AUD|retail_sales": {
@@ -496,13 +496,13 @@
       "indicator": "consumer_conf",
       "label": "Consumer Conf",
       "source": "te",
-      "last_release": "2026-07-30",
+      "last_release": "2026-09-01",
       "period_days": 29,
       "period_basis": "derived",
-      "next_release": "2026-08-28",
+      "next_release": "2026-09-30",
       "next_basis": "estimated",
-      "days_until": -4,
-      "status": "due",
+      "days_until": 29,
+      "status": "upcoming",
       "last_checked": null
     },
     "CHF|consumer_conf": {
@@ -804,13 +804,13 @@
       "indicator": "unemployment_rate",
       "label": "Unemployment Rate",
       "source": "te",
-      "last_release": "2026-07-30",
-      "period_days": 30,
+      "last_release": "2026-09-01",
+      "period_days": 31,
       "period_basis": "derived",
-      "next_release": "2026-08-29",
+      "next_release": "2026-10-02",
       "next_basis": "estimated",
-      "days_until": -3,
-      "status": "due",
+      "days_until": 31,
+      "status": "upcoming",
       "last_checked": null
     },
     "GBP|unemployment_rate": {
