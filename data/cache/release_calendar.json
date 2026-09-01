@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01T12:17:37Z",
+  "generated": "2026-09-01T14:16:32Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -174,12 +174,12 @@
       "indicator": "mpmi",
       "label": "Manufacturing PMI",
       "source": "investing",
-      "last_release": "2026-08-03",
+      "last_release": "2026-09-01",
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-09-02",
+      "next_release": "2026-10-01",
       "next_basis": "estimated",
-      "days_until": 1,
+      "days_until": 30,
       "status": "upcoming",
       "last_checked": "2026-07-01T15:20:03Z"
     },
@@ -188,14 +188,14 @@
       "indicator": "mpmi",
       "label": "Manufacturing PMI",
       "source": "investing",
-      "last_release": "2026-08-02",
+      "last_release": "2026-08-31",
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-09-01",
+      "next_release": "2026-09-30",
       "next_basis": "estimated",
-      "days_until": 0,
-      "status": "due",
-      "last_checked": null
+      "days_until": 29,
+      "status": "upcoming",
+      "last_checked": "2026-09-01T14:16:32Z"
     },
     "CAD|mpmi": {
       "currency": "CAD",
@@ -293,7 +293,7 @@
       "next_basis": "estimated",
       "days_until": -32,
       "status": "due",
-      "last_checked": "2026-08-31T23:05:35Z"
+      "last_checked": "2026-09-01T14:16:32Z"
     },
     "AUD|spmi": {
       "currency": "AUD",
