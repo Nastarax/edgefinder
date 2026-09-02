@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02T12:18:11Z",
+  "generated": "2026-09-02T20:16:25Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -286,14 +286,14 @@
       "indicator": "spmi",
       "label": "Services PMI",
       "source": "te",
-      "last_release": "2026-07-01",
+      "last_release": "2026-08-01",
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-07-31",
+      "next_release": "2026-08-31",
       "next_basis": "estimated",
-      "days_until": -33,
+      "days_until": -2,
       "status": "due",
-      "last_checked": "2026-09-01T23:03:47Z"
+      "last_checked": "2026-09-02T20:16:25Z"
     },
     "AUD|spmi": {
       "currency": "AUD",
