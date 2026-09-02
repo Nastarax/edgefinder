@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02T04:07:26Z",
+  "generated": "2026-09-02T05:08:48Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -76,13 +76,13 @@
       "indicator": "gdp",
       "label": "GDP",
       "source": "te",
-      "last_release": "2026-06-03",
+      "last_release": "2026-09-02",
       "period_days": 91,
       "period_basis": "derived",
-      "next_release": "2026-09-02",
+      "next_release": "2026-12-02",
       "next_basis": "estimated",
-      "days_until": 0,
-      "status": "due",
+      "days_until": 91,
+      "status": "upcoming",
       "last_checked": null
     },
     "CAD|gdp": {
@@ -905,10 +905,10 @@
       "last_release": null,
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-09-02",
+      "next_release": "2026-09-16",
       "next_basis": "exact",
-      "days_until": 0,
-      "status": "due",
+      "days_until": 14,
+      "status": "upcoming",
       "last_checked": null
     },
     "EUR|rates": {
@@ -989,10 +989,10 @@
       "last_release": null,
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-09-02",
+      "next_release": "2026-10-19",
       "next_basis": "exact",
-      "days_until": 0,
-      "status": "due",
+      "days_until": 47,
+      "status": "upcoming",
       "last_checked": null
     },
     "NZD|rates": {
@@ -1003,10 +1003,10 @@
       "last_release": null,
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-09-02",
+      "next_release": "2026-10-28",
       "next_basis": "exact",
-      "days_until": 0,
-      "status": "due",
+      "days_until": 56,
+      "status": "upcoming",
       "last_checked": null
     },
     "USD|pce": {
