@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01T23:03:47Z",
+  "generated": "2026-09-02T00:00:18Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -1056,14 +1056,14 @@
       "indicator": "jolts",
       "label": "JOLTS",
       "source": "investing",
-      "last_release": "2026-08-04",
-      "period_days": 32,
+      "last_release": "2026-09-01",
+      "period_days": 28,
       "period_basis": "derived",
-      "next_release": "2026-09-05",
+      "next_release": "2026-09-29",
       "next_basis": "estimated",
-      "days_until": 4,
+      "days_until": 28,
       "status": "upcoming",
-      "last_checked": null
+      "last_checked": "2026-09-02T00:00:18Z"
     },
     "USD|jobless_claims": {
       "currency": "USD",
