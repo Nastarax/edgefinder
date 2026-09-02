@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02T20:16:25Z",
+  "generated": "2026-09-02T22:10:47Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -538,12 +538,12 @@
       "indicator": "consumer_conf",
       "label": "Consumer Conf",
       "source": "te",
-      "last_release": "2026-07-01",
-      "period_days": 30,
+      "last_release": "2026-08-01",
+      "period_days": 31,
       "period_basis": "derived",
-      "next_release": "2026-07-31",
+      "next_release": "2026-09-01",
       "next_basis": "estimated",
-      "days_until": -33,
+      "days_until": -1,
       "status": "due",
       "last_checked": null
     },
@@ -1043,12 +1043,12 @@
       "label": "ADP",
       "source": "investing",
       "last_release": "2026-08-05",
-      "period_days": 32,
+      "period_days": 28,
       "period_basis": "derived",
-      "next_release": "2026-09-06",
+      "next_release": "2026-09-02",
       "next_basis": "estimated",
-      "days_until": 4,
-      "status": "upcoming",
+      "days_until": 0,
+      "status": "due",
       "last_checked": null
     },
     "USD|jolts": {
