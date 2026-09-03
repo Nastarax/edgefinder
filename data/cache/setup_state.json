@@ -1,177 +1,177 @@
 {
+ "AUDUSD": {
+  "setup": "extended",
+  "bias": "Very Bullish",
+  "loc": 96
+ },
  "CADCHF": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 92
+  "loc": 94
+ },
+ "CADJPY": {
+  "setup": "extended",
+  "bias": "Very Bullish",
+  "loc": 79
  },
  "AUDNZD": {
   "setup": "extended",
   "bias": "Very Bullish",
-  "loc": 91
+  "loc": 88
  },
- "AUDUSD": {
+ "EURUSD": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 96
+  "loc": 75
  },
  "AUDCHF": {
   "setup": "extended",
   "bias": "Bullish",
   "loc": 94
  },
- "EURNZD": {
+ "SILVER": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 67
- },
- "EURGBP": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 86
- },
- "EURUSD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 72
- },
- "EURCHF": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 80
- },
- "GBPNZD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 43
- },
- "CADJPY": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 39
- },
- "GBPCHF": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 56
- },
- "NIKKEI": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 41
- },
- "USDCHF": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 54
- },
- "AUDJPY": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 52
+  "loc": 75
  },
  "XAUUSD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 72
- },
- "SILVER": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 69
+  "setup": "extended",
+  "bias": "Bullish",
+  "loc": 79
  },
  "GBPUSD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 56
+  "loc": 62
+ },
+ "EURGBP": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 89
+ },
+ "EURNZD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 41
+ },
+ "EURCHF": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 89
  },
  "NZDUSD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 51
+  "loc": 55
  },
- "AUDCAD": {
+ "GBPNZD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 77
+  "loc": 44
  },
- "UK100": {
+ "GBPCHF": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 65
+  "loc": 82
  },
- "PLATINUM": {
+ "NIKKEI": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 60
- },
- "EURJPY": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 21
+  "loc": 39
  },
  "GBPJPY": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 10
+  "loc": 69
  },
- "EURAUD": {
+ "UK100": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 1
- },
- "GBPAUD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 0
+  "loc": 71
  },
  "NZDCHF": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 66
+  "loc": 91
+ },
+ "CHFJPY": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 53
+ },
+ "AUDJPY": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 46
+ },
+ "AUDCAD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 78
+ },
+ "USDCHF": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 53
+ },
+ "GBPAUD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 16
+ },
+ "EURJPY": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 16
+ },
+ "EURAUD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 5
  },
  "NZDJPY": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 0
- },
- "CHFJPY": {
-  "setup": "extended",
-  "bias": "Bearish",
   "loc": 3
  },
- "NASDAQ": {
+ "DAX": {
   "setup": "watch",
   "bias": "Bearish",
-  "loc": 65
+  "loc": 67
  },
- "DAX": {
-  "setup": "mid",
+ "PLATINUM": {
+  "setup": "watch",
   "bias": "Bearish",
-  "loc": 59
- },
- "USDJPY": {
-  "setup": "extended",
-  "bias": "Bearish",
-  "loc": 9
+  "loc": 76
  },
  "EURCAD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 7
+  "loc": 6
  },
- "USDCAD": {
-  "setup": "extended",
-  "bias": "Very Bearish",
-  "loc": 16
+ "NASDAQ": {
+  "setup": "watch",
+  "bias": "Bearish",
+  "loc": 73
  },
  "NZDCAD": {
   "setup": "extended",
   "bias": "Very Bearish",
-  "loc": 9
+  "loc": 13
  },
  "GBPCAD": {
   "setup": "extended",
   "bias": "Very Bearish",
-  "loc": 26
+  "loc": 8
+ },
+ "USDJPY": {
+  "setup": "extended",
+  "bias": "Very Bearish",
+  "loc": 2
+ },
+ "USDCAD": {
+  "setup": "extended",
+  "bias": "Very Bearish",
+  "loc": 35
  }
 }
