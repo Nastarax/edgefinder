@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-03T14:24:45Z",
+  "generated": "2026-09-04T02:26:17Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -62,12 +62,12 @@
       "indicator": "gdp",
       "label": "GDP",
       "source": "te",
-      "last_release": "2026-08-14",
-      "period_days": 44,
+      "last_release": "2026-09-03",
+      "period_days": 20,
       "period_basis": "derived",
-      "next_release": "2026-09-27",
+      "next_release": "2026-09-23",
       "next_basis": "estimated",
-      "days_until": 24,
+      "days_until": 20,
       "status": "upcoming",
       "last_checked": null
     },
@@ -293,7 +293,7 @@
       "next_basis": "estimated",
       "days_until": -3,
       "status": "due",
-      "last_checked": "2026-09-03T14:24:45Z"
+      "last_checked": "2026-09-04T02:26:17Z"
     },
     "AUD|spmi": {
       "currency": "AUD",
@@ -692,13 +692,13 @@
       "indicator": "ppi",
       "label": "PPI YoY",
       "source": "te",
-      "last_release": "2026-08-05",
+      "last_release": "2026-09-03",
       "period_days": 29,
       "period_basis": "derived",
-      "next_release": "2026-09-03",
+      "next_release": "2026-10-02",
       "next_basis": "estimated",
-      "days_until": 0,
-      "status": "due",
+      "days_until": 29,
+      "status": "upcoming",
       "last_checked": null
     },
     "GBP|ppi": {
