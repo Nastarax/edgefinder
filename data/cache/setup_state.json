@@ -47,7 +47,7 @@
  "UK100": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 72
+  "loc": 73
  },
  "SILVER": {
   "setup": null,
@@ -152,7 +152,7 @@
  "DAX": {
   "setup": "watch",
   "bias": "Bearish",
-  "loc": 71
+  "loc": 69
  },
  "USDCAD": {
   "setup": "extended",
