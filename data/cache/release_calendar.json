@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-04T12:29:15Z",
+  "generated": "2026-09-04T14:24:49Z",
   "entries": {
     "USD|gdp": {
       "currency": "USD",
@@ -132,42 +132,42 @@
       "indicator": "mpmi",
       "label": "Manufacturing PMI",
       "source": "investing",
-      "last_release": "2026-08-03",
+      "last_release": "2026-09-01",
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-09-02",
+      "next_release": "2026-10-01",
       "next_basis": "estimated",
-      "days_until": -2,
-      "status": "due",
-      "last_checked": "2026-08-04T02:00:41Z"
+      "days_until": 27,
+      "status": "upcoming",
+      "last_checked": "2026-09-04T14:24:49Z"
     },
     "GBP|mpmi": {
       "currency": "GBP",
       "indicator": "mpmi",
       "label": "Manufacturing PMI",
       "source": "investing",
-      "last_release": "2026-08-03",
+      "last_release": "2026-09-01",
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-09-02",
+      "next_release": "2026-10-01",
       "next_basis": "estimated",
-      "days_until": -2,
-      "status": "due",
-      "last_checked": null
+      "days_until": 27,
+      "status": "upcoming",
+      "last_checked": "2026-09-04T14:24:49Z"
     },
     "JPY|mpmi": {
       "currency": "JPY",
       "indicator": "mpmi",
       "label": "Manufacturing PMI",
       "source": "investing",
-      "last_release": "2026-08-03",
+      "last_release": "2026-09-01",
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-09-02",
+      "next_release": "2026-10-01",
       "next_basis": "estimated",
-      "days_until": -2,
-      "status": "due",
-      "last_checked": "2026-08-04T02:00:41Z"
+      "days_until": 27,
+      "status": "upcoming",
+      "last_checked": "2026-09-04T14:24:49Z"
     },
     "CHF|mpmi": {
       "currency": "CHF",
@@ -202,14 +202,14 @@
       "indicator": "mpmi",
       "label": "Manufacturing PMI",
       "source": "investing",
-      "last_release": "2026-08-04",
+      "last_release": "2026-09-01",
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-09-03",
+      "next_release": "2026-10-01",
       "next_basis": "estimated",
-      "days_until": -1,
-      "status": "due",
-      "last_checked": "2026-08-07T18:22:13Z"
+      "days_until": 27,
+      "status": "upcoming",
+      "last_checked": "2026-09-04T14:24:49Z"
     },
     "NZD|mpmi": {
       "currency": "NZD",
@@ -230,14 +230,14 @@
       "indicator": "spmi",
       "label": "Services PMI",
       "source": "investing",
-      "last_release": "2026-08-05",
+      "last_release": "2026-09-03",
       "period_days": 30,
       "period_basis": "default",
-      "next_release": "2026-09-04",
+      "next_release": "2026-10-03",
       "next_basis": "estimated",
-      "days_until": 0,
-      "status": "due",
-      "last_checked": null
+      "days_until": 29,
+      "status": "upcoming",
+      "last_checked": "2026-09-04T14:24:49Z"
     },
     "EUR|spmi": {
       "currency": "EUR",
@@ -293,7 +293,7 @@
       "next_basis": "estimated",
       "days_until": -4,
       "status": "due",
-      "last_checked": "2026-09-04T02:26:17Z"
+      "last_checked": "2026-09-04T14:24:49Z"
     },
     "AUD|spmi": {
       "currency": "AUD",
@@ -622,14 +622,14 @@
       "indicator": "cpi",
       "label": "CPI YoY",
       "source": "investing",
-      "last_release": "2026-08-03",
+      "last_release": "2026-09-03",
       "period_days": 31,
       "period_basis": "derived",
-      "next_release": "2026-09-03",
+      "next_release": "2026-10-04",
       "next_basis": "estimated",
-      "days_until": -1,
-      "status": "due",
-      "last_checked": "2026-09-03T04:17:42Z"
+      "days_until": 30,
+      "status": "upcoming",
+      "last_checked": "2026-09-04T14:24:49Z"
     },
     "AUD|cpi": {
       "currency": "AUD",
