@@ -12,17 +12,22 @@
  "AUDCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 97
+  "loc": 96
  },
  "CADCHF": {
   "setup": "extended",
   "bias": "Bullish",
-  "loc": 84
+  "loc": 82
  },
  "EURNZD": {
   "setup": "mid",
   "bias": "Bullish",
-  "loc": 61
+  "loc": 62
+ },
+ "GBPNZD": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 46
  },
  "EURUSD": {
   "setup": null,
@@ -34,35 +39,30 @@
   "bias": "Neutral",
   "loc": 86
  },
- "GBPNZD": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 44
- },
- "SILVER": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 73
- },
  "NZDUSD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 56
+  "loc": 53
  },
  "EURCHF": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 83
+  "loc": 84
+ },
+ "SILVER": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 68
  },
  "XAUUSD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 73
+  "loc": 66
  },
  "UK100": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 73
+  "loc": 72
  },
  "CADJPY": {
   "setup": null,
@@ -82,7 +82,7 @@
  "NIKKEI": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 41
+  "loc": 50
  },
  "GBPUSD": {
   "setup": null,
@@ -107,12 +107,12 @@
  "NZDCHF": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 72
+  "loc": 63
  },
  "PLATINUM": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 80
+  "loc": 78
  },
  "EURJPY": {
   "setup": "extended",
@@ -137,22 +137,22 @@
  "EURAUD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 4
+  "loc": 2
  },
  "EURCAD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 28
+  "loc": 27
  },
  "GBPAUD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 5
+  "loc": 4
  },
  "NZDCAD": {
   "setup": "extended",
   "bias": "Bearish",
-  "loc": 26
+  "loc": 25
  },
  "USDJPY": {
   "setup": "extended",
@@ -162,7 +162,7 @@
  "DAX": {
   "setup": "watch",
   "bias": "Bearish",
-  "loc": 69
+  "loc": 71
  },
  "GBPCAD": {
   "setup": "extended",
@@ -172,6 +172,6 @@
  "USDCAD": {
   "setup": "extended",
   "bias": "Very Bearish",
-  "loc": 24
+  "loc": 25
  }
 }
