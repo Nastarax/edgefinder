@@ -54,6 +54,11 @@
   "bias": "Neutral",
   "loc": 84
  },
+ "NIKKEI": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 50
+ },
  "XAUUSD": {
   "setup": null,
   "bias": "Neutral",
@@ -78,11 +83,6 @@
   "setup": null,
   "bias": "Neutral",
   "loc": 89
- },
- "NIKKEI": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 50
  },
  "GBPUSD": {
   "setup": null,
@@ -172,6 +172,6 @@
  "USDCAD": {
   "setup": "extended",
   "bias": "Very Bearish",
-  "loc": 25
+  "loc": 24
  }
 }
