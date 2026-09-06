@@ -39,6 +39,11 @@
   "bias": "Neutral",
   "loc": 86
  },
+ "SILVER": {
+  "setup": null,
+  "bias": "Neutral",
+  "loc": 73
+ },
  "NZDUSD": {
   "setup": null,
   "bias": "Neutral",
@@ -49,15 +54,10 @@
   "bias": "Neutral",
   "loc": 84
  },
- "SILVER": {
-  "setup": null,
-  "bias": "Neutral",
-  "loc": 68
- },
  "XAUUSD": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 66
+  "loc": 73
  },
  "UK100": {
   "setup": null,
@@ -112,7 +112,7 @@
  "PLATINUM": {
   "setup": null,
   "bias": "Neutral",
-  "loc": 78
+  "loc": 79
  },
  "EURJPY": {
   "setup": "extended",
